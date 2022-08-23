@@ -15,3 +15,10 @@ Außerdem haben wir uns mit den verschiedenen Arduinos beschäftigt und überleg
 Es gibt schon erste Ideen wie, dass man wenn ein Mensch im Raum ist die Lichthelligkeit kostant hält.
 Die Helligkeit im raum soll gemessen werden und dann wird die Helligkeit einer Lampe gesteuert, sodass es im Raum immer gleich hell ist.
 Bei dieser Idee wird die Anweisung durch Bewegungs und Lichtsensoren gesteuert.
+
+23.08
+
+Heute haben wir uns final entschieden das in der vorherigen Stunde geplante Projekt umzusetzten. Außerdem haben wir nach den benötigten Materialien recherchiert und 
+haben uns diese rausgesucht. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben uns entschlossen einen Arduinio mit
+Internet verbindung zu verwenden. Zudem haben wir uns vorerst Lichtsensoren rausgesucht und haben wir uns für eine LED Lampe, bei welcher man die Lichtintensität
+abhängig von der Stromstärke dimmen kann, entschieden.
