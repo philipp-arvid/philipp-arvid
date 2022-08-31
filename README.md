@@ -29,4 +29,9 @@ In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimenti
 
 30.08
 
-In der huetigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dnanch havben wir wieder experimentiert und versuicht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. 
+In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dananch haben wir wieder experimentiert und versucht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. Wir haben nämlich den Fotosensor an den Arduino angeschlossen. Dann wurden diese an den Computer weitergegeben, bei welchem wir sie durch den "serielle Monitor" ablesen konnten. Dann haben wir noch gesteuert, wie oft die Werte gem,essen werden sollen, da sie sonst dauerhaft gemessen wwerden und dies bei unserem Projekt sehr wahrscheinlich zu Rückkopplungen führen würde.
+
+31.08
+
+Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben wir uns weiter informiert und wollten dann den erflogreich verbundenen fotosensor mit einer LED verbinden. Unser Ziel war es, dass die LED leuchtet wenn der Fotosensor ein niedrigen Wert misst, also wenn es dunkler wird, und entsprechend bei einem hohen wert, also wenn es heller wird, aus geht. Also wird die Halligkeit der LED durch die Messwerte des Fotosensors gesteuert. Dies haben wir letztendlich auch geschafft. Zuerst haben wir dies mit einem "if" geschafft. Das heißt, wenn die Helligkeit, welche der Fotosensor unterschreitet, geht die LED an. Dann haben wir uns über Arduino Map informiert und haben durch dies die Helligkeit gesteuert. Die Helligkeitswerte haben wir also in AnalogWrite werte übersetzt und "gemapt". Dadurch gab der Arduino dann eine bestimmte Voltzahl aus und die LED leuchtet verschieden Hell. 
+Video einfügen
