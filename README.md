@@ -45,5 +45,5 @@ In dieser Doppelstunde haben wir einige funktionen versucht, doch leider hat es 
 
 13.09
 
-In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion 
+In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion eine Helligkeit erhalten könnte, dass die Led durch die Messungen keine so großen Schwankungen hat. Aktuell passiert es nämlich, dass es ganz dunkel ist und dann die LED genz helöl wird. dadurch ist es dann zu hell und die LED wird wieder dunkler. Mit der if Funktion ist unser Ziel, dass der Strom, welcher zu der LED fließt nur ein bisschen in jeder Messung verändert wird. Wenn dies oft passiert ist die LED auch nach einer kurzen Zeit angepasst. Dies werden wir in der morgigen Doppelstunde programmieren und ausprobiere.
 
