@@ -39,7 +39,11 @@ Video einfügen
 06.09
 
 Heute haben wir den aufbau letzer Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, damit wir es schaffen einen richtwert zu definieren, bei dem ein Lichtwert erreicht wird und somit keine veränderung der LED mehr stattfindet. Dazu haben wir weitere Planungen übernommen, wie wir benötigtes Material organisieren.
-
 07.09
 
-In dieser Doppelstunde haben wir einige funktionen versucht, doch leider hat es noch nicht geklappt, Wir haben unter anderem die == Funktion sowie die define() funktion. Des Weiteren haben wir nun andere Funktionen rausgesucht, die wir in der nächtsen Strunde probieren wrrden. 
+In dieser Doppelstunde haben wir einige funktionen versucht, doch leider hat es noch nicht geklappt, Wir haben unter anderem die == Funktion sowie die define() funktion. Des Weiteren haben wir nun andere Funktionen rausgesucht, die wir in der nächtsen Strunde probieren wrrden. Außerdem haben wir überlegt, wie wir die Schwankungen in der Helligkeit verringern können. Dadurch waren wir wieder auf der Seite des arduinos. DOrt haben wir 2 sachen probiert. Diese haben aber leidder noch nicht gelklappt
+
+13.09
+
+In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion 
+
