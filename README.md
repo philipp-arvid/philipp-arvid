@@ -51,4 +51,10 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll. Durch diese Umsetzung kann unser Aufbau jetzt erhalten werden und wir müssen nicht jede Stunde wiederholen, was uns immer 5- 10 Minuten kostete.
 
 https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
+27.09.22
+recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
+
+28.09.2022
+weiter reherchiert, mittelwert problem durch ddition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
+
 
