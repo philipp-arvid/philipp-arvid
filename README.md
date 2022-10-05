@@ -53,7 +53,7 @@ Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später uns
 https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
 27.09.22
 recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
-
+In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. 
 28.09.2022
 weiter reherchiert, mittelwert problem durch ddition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
 
