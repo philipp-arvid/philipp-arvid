@@ -65,6 +65,7 @@ https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-et
 recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
 In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion produziert
 28.09.2022
-weiter reherchiert, mittelwert problem durch ddition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
+weiter reherchiert, mittelwert problem durch adition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
 
-
+26.10.2022
+fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
