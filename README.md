@@ -61,11 +61,20 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll. Durch diese Umsetzung kann unser Aufbau jetzt erhalten werden und wir müssen nicht jede Stunde wiederholen, was uns immer 5- 10 Minuten kostete.
 
 https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
+
 27.09.22
 recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
 In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion produziert
+
 28.09.2022
 weiter reherchiert, mittelwert problem durch adition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
 
 26.10.2022
 fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
+
+1.11 
+ausgefallen
+
+2.11 Glühlampe eingebaut
+8,11
+Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
