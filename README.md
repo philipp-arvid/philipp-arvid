@@ -7,13 +7,23 @@
 [Stundenprotokolle](#einf)  
 [Stunde vom 16.8](#1)  
 [Stunde vom 17.8](#2)  
-[Stunde vom 23.8](#3)
-[Stunde vom 24.8](#4)
-[Stunde vom 30.8](#5)
-
-
-
-
+[Stunde vom 23.8](#3)   
+ [Stunde vom 24.8](#4)   
+    [Stunde vom 30.8](#5)
+       [Stunde vom 31.8](#6)
+          [Stunde vom 06.09](#7)
+               [Stunde vom 07.09](#8)
+                 [Stunde vom 13.09](#9)
+      [Stunde vom 14.09](#10) 
+[Stunde vom 27.09](#11)
+   [Stunde vom 28.09](#12)
+       [Stunde vom 26.10](#13)
+  [Stunde vom 1.11](#14)
+  [Stunde vom 2.11](#15)
+   [Stunde vom 8.11](#16)
+    [Stunde vom 9.11](#17)
+  
+  
 ### <a name="1"></a>Stunde vom 16.8
    
  In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe erklärt, und github gezeigt. 
@@ -45,40 +55,52 @@ In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimenti
 
 In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dananch haben wir wieder experimentiert und versucht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. Wir haben nämlich den Fotosensor an den Arduino angeschlossen. Dann wurden diese an den Computer weitergegeben, bei welchem wir sie durch den "serielle Monitor" ablesen konnten. Dann haben wir noch gesteuert, wie oft die Werte gem,essen werden sollen, da sie sonst dauerhaft gemessen wwerden und dies bei unserem Projekt sehr wahrscheinlich zu Rückkopplungen führen würde.
 
-31.08
+
+### <a name="6"></a>Stunde vom 31.8
 
 Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben wir uns weiter informiert und wollten dann den erflogreich verbundenen fotosensor mit einer LED verbinden. Unser Ziel war es, dass die LED leuchtet wenn der Fotosensor ein niedrigen Wert misst, also wenn es dunkler wird, und entsprechend bei einem hohen wert, also wenn es heller wird, aus geht. Also wird die Halligkeit der LED durch die Messwerte des Fotosensors gesteuert. Dies haben wir letztendlich auch geschafft. Zuerst haben wir dies mit einem "if" geschafft. Das heißt, wenn die Helligkeit, welche der Fotosensor unterschreitet, geht die LED an. Dann haben wir uns über Arduino Map informiert und haben durch dies die Helligkeit gesteuert. Die Helligkeitswerte haben wir also in AnalogWrite werte übersetzt und "gemapt". Dadurch gab der Arduino dann eine bestimmte Voltzahl aus und die LED leuchtet verschieden Hell. 
 Video einfügen
 
-06.09
+### <a name="7"></a>Stunde vom 06.09
 
 Heute haben wir den aufbau letzer Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, damit wir es schaffen einen richtwert zu definieren, bei dem ein Lichtwert erreicht wird und somit keine veränderung der LED mehr stattfindet. Dazu haben wir weitere Planungen übernommen, wie wir benötigtes Material organisieren.
-07.09
+### <a name="8"></a>Stunde vom 07.09
 
 In dieser Doppelstunde haben wir einige funktionen versucht, doch leider hat es noch nicht geklappt, Wir haben unter anderem die == Funktion sowie die define() funktion. Des Weiteren haben wir nun andere Funktionen rausgesucht, die wir in der nächtsen Strunde probieren wrrden. Außerdem haben wir überlegt, wie wir die Schwankungen in der Helligkeit verringern können. Dadurch waren wir wieder auf der Seite des arduinos. DOrt haben wir 2 sachen probiert. Diese haben aber leidder noch nicht gelklappt
 
-13.09
+### <a name="9"></a>Stunde vom 13.09
 
 In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion eine Helligkeit erhalten könnte, dass die Led durch die Messungen keine so großen Schwankungen hat. Aktuell passiert es nämlich, dass es ganz dunkel ist und dann die LED genz hell wird. dadurch ist es dann zu hell und die LED wird wieder dunkler. Mit der if Funktion ist unser Ziel, dass der Strom, welcher zu der LED fließt nur ein bisschen in jeder Messung verändert wird. Wenn dies oft passiert ist die LED auch nach einer kurzen Zeit angepasst. Dies werden wir in der morgigen Doppelstunde programmieren und ausprobiere.
 
-14.09
+### <a name="10"></a>Stunde vom 14.09
 Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll. Durch diese Umsetzung kann unser Aufbau jetzt erhalten werden und wir müssen nicht jede Stunde wiederholen, was uns immer 5- 10 Minuten kostete.
 
 https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
 
-27.09.22
+### <a name="11"></a>Stunde vom 27.09
 recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
 In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion produziert
 
-28.09.2022
+### <a name="12"></a>Stunde vom 28.09
 weiter reherchiert, mittelwert problem durch adition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
 
-26.10.2022
+### <a name="13"></a>Stunde vom 26.10
 fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
 
-1.11 
+### <a name="14"></a>Stunde vom 1.11 
+
+
 ausgefallen
 
-2.11 Glühlampe eingebaut
-8,11
+### <a name="15"></a>Stunde vom 2.11 
+
+
+
+Glühlampe eingebaut
+### <a name="15"></a>Stunde vom 8.11
+
+
+
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
+
+### <a name="16"></a>Stunde vom 9.11
