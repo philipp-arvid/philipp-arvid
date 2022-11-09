@@ -8,7 +8,6 @@
 [Stunde vom 16.8](#1)  
 [Stunde vom 17.8](#2)  
 [Stunde vom 23.8](#3)
-
 [Stunde vom 24.8](#4)
 
 
