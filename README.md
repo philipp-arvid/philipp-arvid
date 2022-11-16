@@ -5,21 +5,37 @@
 
 
 [Stundenprotokolle](#einf)  
+
 [Stunde vom 16.8](#1)  
+
 [Stunde vom 17.8](#2)  
+
 [Stunde vom 23.8](#3)   
-[Stunde vom 24.8](#4)   
+
+[Stunde vom 24.8](#4)  
+
 [Stunde vom 30.8](#5)
+
 [Stunde vom 05.09](#6)
+
 [Stunde vom 06.09](#7)
+
 [Stunde vom 07.09](#8)
+
 [Stunde vom 13.09](#9)
+
 [Stunde vom 14.09](#10) 
+
 [Stunde vom 27.09](#11)
+
 [Stunde vom 28.09](#12)
+
 [Stunde vom 26.10](#13)
+
 [Stunde vom 1.11](#14)
+
 [Stunde vom 2.11](#15)
+
 [Stunde vom 8.11](#16)
 
 [Stunde vom 9.11](#17)
@@ -100,13 +116,13 @@ ausgefallen
 
 Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
 
-### <a name="15"></a>Stunde vom 8.11
+### <a name="16"></a>Stunde vom 8.11
 
 Heute haben wir uns 
 
 
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
 
-### <a name="16"></a>Stunde vom 9.11
+### <a name="17"></a>Stunde vom 9.11
 
 In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
