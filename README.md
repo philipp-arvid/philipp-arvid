@@ -104,7 +104,7 @@ ausgefallen
 
 Glühlampe eingebaut
 ### <a name="15"></a>Stunde vom 8.11
-
+Heute haben wir uns 
 
 
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
