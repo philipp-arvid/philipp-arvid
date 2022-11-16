@@ -90,18 +90,15 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 
 ### <a name="10"></a>Stunde vom 14.09
 
-Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll. Durch diese Umsetzung kann unser Aufbau jetzt erhalten werden und wir müssen nicht jede Stunde wiederholen, was uns immer 5- 10 Minuten kostete.
-
-https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
+Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll.In diesem Schuhkarton kann unser Aufbau dann immer behgalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile sehr komplex ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Außerdem haben wir versucht den Mittelwert zwischen den beiden Fotoioden zu bilden. Dies haben wir mit einer for-Schleife probiert, was aber nicht funktioniert hat.
 
 ### <a name="11"></a>Stunde vom 27.09
 
-recherchiert wie man MIttelwert bei Arduino bildet , array funktion und millis funktiuon, 
-In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion produziert
+In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen sind sehtr komlex, obwohl wir nur zwei Werte haben.
 
 ### <a name="12"></a>Stunde vom 28.09
 
-weiter reherchiert, mittelwert problem durch adition gelöst, maximum definiert ( if funktion) also ehm zu hell bedeutet LED aus 
+Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. Die ganzen Funktionen aus dem Internet haben aber nicht geklappt und wir haben uns überlegt, dass wir einfach die beiden Werte der Fotoioden Addieren und die Werte der Map-Funktion auch verdoppeln. Somit haben wir unser langes Problem mit einer einfachen Idee gelöst. Dazu haben wir durch die If-Funktion bestimmt, dass die LEDs ausgehen, wenn es zu hell wird. Dies hat davor nicht funktiopniert, weil sie dann außerhalb der Map Funktion lagen und dann normal geleuchtet haben.
 
 ### <a name="13"></a>Stunde vom 26.10
 
@@ -117,7 +114,7 @@ Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in ein
 
 ### <a name="16"></a>Stunde vom 8.11
 
-IN diser Stunde haben wir uns damit beschäftigt den Code so zu verändern, dass dieser mit dem neuem Aufbau auch klappt. Zunächts haben wir überlegt, dass man einfch die Map Funktion beibehalten könnte und es eigentlich trotzdem klappen müsste. Doch es hat sich bei einem Test herausgestellt, dass es aus irgenteinem Grund nicht funktioniert. Denn wir haben eine Fehlermeldung bekommen, für die wir nicht den Ursprung kannten. Auch nachdem wir immmer weiter Teile des Codes inaktiv gemacht haben, hat es nicht geklappt. Erst nach Hilfe von Herr Buhl haben wir einfach ein neues Projekt in der Aruino software gestartet, wo wir dann wieder langsam den Code eingefügt haben. Anschliessend haben wir dann keine Fehlermeldung mehr bekommen, aber das Ursprüngliche Problem, haben wir immernoch nicht gelöst: Wie wir einen Code für den neuen Aufbau schreiben. Wir haben dann andere Methoden neben der Map funktion im Internet gesucht und sind bis Ende der Strunde nicht mehr fertig geworden.
+Heute haben wir uns 
 
 
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
