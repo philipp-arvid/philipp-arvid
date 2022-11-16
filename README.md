@@ -42,9 +42,8 @@
   
 ### <a name="1"></a>Stunde vom 16.8
    
- In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe erklärt, und github gezeigt. 
- Dazu haben wir noch einige projekte von ehemaligen Schülern gesehen.Diese gingen in verschiedene richtungen und wir konnten uns auf github einen ersten überblick über 
- unsere optionen verschaffen. 
+ In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe vorgestellt, und github gezeigt. Wir haben einen Github Account angelegt und uns einige projekte von ehemaligen Schülern angesehen.Diese gingen in verschiedene richtungen und wir konnten uns auf github einen ersten überblick über 
+ unsere optionen verschaffen. Wir haben noch überleht, ob wir ein Computerspiel programmieren wollen, oder vielleicht doch in Richutng physical Computing gehen wollen. 
 
 ### <a name="2"></a>Stunde vom 17.8
 
