@@ -90,9 +90,7 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 
 ### <a name="10"></a>Stunde vom 14.09
 
-Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll. Durch diese Umsetzung kann unser Aufbau jetzt erhalten werden und wir müssen nicht jede Stunde wiederholen, was uns immer 5- 10 Minuten kostete.
-
-https://forum.arduino.cc/t/mehrere-lmp36-temperatursensoren-mittelwert-bilden-ethernetshield/180756
+Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll.In diesem Schuhkarton kann unser Aufbau dann immer behgalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile sehr komplex ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Außerdem haben wir versucht den Mittelwert zwischen den beiden Fotoioden zu bilden. Dies haben wir mit einer for-Schleife probiert, was aber nicht funktioniert hat.
 
 ### <a name="11"></a>Stunde vom 27.09
 
