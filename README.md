@@ -95,11 +95,10 @@ fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgeb
 
 ### <a name="14"></a>Stunde vom 1.11 
 
-
 ausgefallen
 
 ### <a name="15"></a>Stunde vom 2.11 
-
+Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
 
 
 Glühlampe eingebaut
