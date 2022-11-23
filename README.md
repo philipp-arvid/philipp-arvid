@@ -92,7 +92,7 @@ Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später uns
 
 ### <a name="11"></a>Stunde vom 27.09
 
-In der heutigen Informatikstunde haben wir weiter versucht herauszufinden, wie man einen Mittelwert, aus den beiden Photodioden bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen, die wir uns heute angeguckt haben, schienen nicht das gemacht zu haben, was wir uns erhofft hatten.
+In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen sind sehtr komlex, obwohl wir nur zwei Werte haben.
 
 ### <a name="12"></a>Stunde vom 28.09
 
@@ -100,11 +100,11 @@ Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. D
 
 ### <a name="13"></a>Stunde vom 26.10
 
-fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
+Heute haben den Code wieder eingefügt und den Arduino angeschlossen. Daraufhin wurde uns ein Fehler beim kompillieren angezeigt. Daraufhin haben wir mehrere Zeilen geändert und sie teilweise kommentiert. Mit diesem simlen Code waren wir uns zu 100% sicher, dass kein Fehler mehr enthalten war. Als der Fehler daraufhin immernoch auftauchete haben wir Herrn Buhl um Hilfe gebeten. Nachdem wir dann alles kommentiert haben und der Fehler immernoch auftauchte, haben wir alles in einen neuen Sketch kopiert. Daraufhin hat der Code wieder funktioniert. Dann hatten wir unseren Aufbau vom Prinzip her mit Code fertig. Darauhin hat uns Herr Buhl vorgeschlagen eine Glühlampe anmstatt der LEDs, weil diese besser dimmbar sind. Dann haben wir uns mit der Glühlampe beshcäftigt und versucht, diese zum leuchten zu bringen. Dies hat aber nicht geklappt. Aufgrund der 6 Volt, die ide Glühlampe braucht und der nur vorhndenen 5 V des Arduinos muss man noch ein externes Netzteil und einen Transistor einfügen.
 
 ### <a name="14"></a>Stunde vom 1.11 
 
-ausgefallen
+Heute ist die Stunde ausgefallen. Wir haben aber Zuhause recherchiert und über die Glühlampe infomiert. Somit können wir nächste Stunde einfacher starten, weil wir über Die Stromrichtung und den Aufbau mit dem Transistor schon bescheid wissen.
 
 ### <a name="15"></a>Stunde vom 2.11 
 
@@ -112,7 +112,7 @@ Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in ein
 
 ### <a name="16"></a>Stunde vom 8.11
 
-wir haben zunächst probiert die glühlampe im prinzip mit dem alten Code zum leuchten zu bringen. Dies hat aber leider nicht geklappt aus irgenteinem Grund. Wir haben überlegt, ob es an der Map funktuion oder anderen fehlern liegen könnte. wir konnten jedoch sicherstellen, dass der aufbau richitgi ist. Außerdem ist die Fehermeldung in unserem Arduino code nicht weggenagen. Wir haben mit der Zeit mehr und mehr Teile des Cods entfernt, doch die gfehlermeldung blieb. Mit der Hilfe von Herr Buhl haben wir schliesslich herausgefunden, dass es sich um einen Fehler in der Datei halten muss. Wir haben eine neue Datei geöffnet und udann den alten Code wiedr eingefügt. Es hat zwar noch nicht funktioniert, dass die glühlampe leuchtet, aber die Fehlernmedlung war bejhoben.
+Heute haben wir uns 
 
 
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
