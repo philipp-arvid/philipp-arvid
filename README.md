@@ -92,7 +92,7 @@ Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später uns
 
 ### <a name="11"></a>Stunde vom 27.09
 
-In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen sind sehtr komlex, obwohl wir nur zwei Werte haben.
+In der heutigen Informatikstunde haben wir weiter versucht herauszufinden, wie man einen Mittelwert, aus den beiden Photodioden bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen, die wir uns heute angeguckt haben, schienen nicht das gemacht zu haben, was wir uns erhofft hatten.
 
 ### <a name="12"></a>Stunde vom 28.09
 
