@@ -57,9 +57,7 @@ Bei dieser Idee wird die Anweisung durch Bewegungs und Lichtsensoren gesteuert.
 ### <a name="3"></a>Stunde vom 23.8
 
 Heute haben wir uns final entschieden das in der vorherigen Stunde geplante Projekt umzusetzten. Außerdem haben wir nach den benötigten Materialien recherchiert und 
-haben uns diese rausgesucht. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben uns entschlossen einen Arduinio mit
-Internet verbindung zu verwenden. Zudem haben wir uns vorerst Lichtsensoren rausgesucht und haben wir uns für eine LED Lampe, bei welcher man die Lichtintensität
-abhängig von der Stromstärke dimmen kann, entschieden.
+haben uns diese rausgesucht. Wir brauchen ein Steckbrett, Kabel, eine LED, Wiederstände und eine Photodiode sowie das Herzstück, den Arduino, der die LED abhängig von der Lichtintensität steuern soll. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben herausgefunden, dass dies gut mit einem Arduino Uno funktioniert, der glücklicherweise auch im Inventar der Schule vorzufinden ist. Wir hoffen, dass es möglich ist, dass der Arduino die Messwerte der photodiode bekommt und diese in einen Stromstärke Wert für die LED übersetzen kann. Doch da wir noch keine Vorkenntnisse über die Funktion des Arduinos haben, werden wir erst recherchieren und kleine Experimente machen, um ein Basiswissen zu erschliessen. 
 
 
 ### <a name="4"></a>Stunde vom 24.8
@@ -78,7 +76,7 @@ Video einfügen
 
 ### <a name="7"></a>Stunde vom 06.09
 
-Heute haben wir den aufbau letzer Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, damit wir es schaffen einen richtwert zu definieren, bei dem ein Lichtwert erreicht wird und somit keine veränderung der LED mehr stattfindet. Dazu haben wir weitere Planungen übernommen, wie wir benötigtes Material organisieren.
+Heute haben wir zunächst den aufbau der letzen Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, um die Schwankungen zu minimieren. Die LED wird sehr hell bei niedrigen Lichtintensitäten und daraufhin wird wieder merh Licht gemessen und die LED wird dunkler. Wir haben uins verschiedene Funktionen auf der Arduino website angeguckt, doch haben noch keine Lösung für das Problem in dieser Stunde gefunden. Wir haben uns außerdem noch überlegt, dass man möglicherweise in Zukunft einen Richtwert programmieren könnte, der immer als Ziel gilt, um die Schwankungen auch unter nderem zu minimieren. des Weiteren haben wir weitere zukunftspläne für unser Projekte aausgearbeitet und uns übelegt, dass man vielleicht mehrere LEDs und Photodioden einbauen könnte.
 
 ### <a name="8"></a>Stunde vom 07.09
 
@@ -86,7 +84,7 @@ In dieser Doppelstunde haben wir einige funktionen versucht, doch leider hat es 
 
 ### <a name="9"></a>Stunde vom 13.09
 
-In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion eine Helligkeit erhalten könnte, dass die Led durch die Messungen keine so großen Schwankungen hat. Aktuell passiert es nämlich, dass es ganz dunkel ist und dann die LED genz hell wird. dadurch ist es dann zu hell und die LED wird wieder dunkler. Mit der if Funktion ist unser Ziel, dass der Strom, welcher zu der LED fließt nur ein bisschen in jeder Messung verändert wird. Wenn dies oft passiert ist die LED auch nach einer kurzen Zeit angepasst. Dies werden wir in der morgigen Doppelstunde programmieren und ausprobiere.
+In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals aufgebaut und anschliessend haben wir uns überlegt, dass man mit einer (if) funktion eine Helligkeit erhalten könnte, dass die Led durch die Messungen keine so großen Schwankungen hat. Aktuell passiert es nämlich immmernoch, dass es ganz dunkel ist und dann die LED genz hell wird. dadurch ist es zu hell und die LED wird wieder dunkler. Mit der (if) Funktion ist unser Ziel, dass der Strom, welcher zu der LED fließt nur ein bisschen in jeder Messung verändert wird.Da die Map Funmktion einen Wert von 0 bis 256 ausgibt, ist unsere Idee, dass wenn die gemessene lichtintensität einen gewissen wert über- oder unterschreitet, dann wird der Wert der Map funkition um 10 erhöht oder gesenkt. Wenn dies oft passiert ist die LED auch nach einer kurzen Zeit angepasst. Dies werden wir in der morgigen Doppelstunde programmieren und ausprobieren.
 
 ### <a name="10"></a>Stunde vom 14.09
 
@@ -102,20 +100,34 @@ Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. D
 
 ### <a name="13"></a>Stunde vom 26.10
 
-Heute haben wir den das Arduinoboard mit dem Aufbau wieder angeschlossen und den geschpeicherten Code hochgeladen. Daraufhin gab es aber ein Fehler beim kompilieren. Dann haben wir mit der Zeit immer mehr Teile des Codes kommentiert oder umgeschrieben. Nachdem wir dann nur noch einen simplen Code hatten, welcher zu 100% keinen Fehler hat, haben wir Herrn Buhl nach Hilfe gefragt. Daraufhin haben wir dann den ganzen Code kommentiert, aber der Fehler war immer noch vorhanden. Daraufhin haben wir den Code kopiert und in einen neuen Sketch eingefügt. Dann hat alles wieder funktioniert. Dann hatten wir unser Projekt von der Grundidee fertig. Daraufhin wurde uns von Herrn Buhl empfohlen, das Projekt mit einer Glühlampe und nicht mit Leds durchzuführen, weil diese besser dimmbar ist. Da die Glühlampe aber 6 Volt braucht und das Arduino-Board nur 5 Volt ausgeben kann , muss dafür eine externe Stromquelle hinzugefügt werden. Dies haben wir dann in der restliche Zeit recherchiert und versucht aufzubauen, was uns allerdings nicht geglückt ist. Wir haben aber herausgefunden, dass wir einen Transistor und ein externes Netzteil nutzen müssen und können mit diesem dann in der nächsten Stunde beginnen.
+fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
 
 ### <a name="14"></a>Stunde vom 1.11 
 
-Heute ist die Informatikstunde ausgefallen. Wir haben uns aber jeder Zuhause hingesetzt und uns noch genauer mit der Glühlampe beschaftigt. Somit haben wir uns die arbeit in der nächsten Sttunde erleichtert, weil wir wieder das Grundwissen zu der Glühlampe aufgefrischt haben, wie die Stromflussrichtung und den Anschluss.
+ausgefallen
 
 ### <a name="15"></a>Stunde vom 2.11 
 
-Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Da dies schnell und ohne Probleme geklappt hat, haben wir uns entschlossen die Glühlampe in den richtigen Aufbau mit einzubauen. Dann haben wir das ganze, wie scho gesagt, mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern. Dieser hatte aufgrund der veränderung zu der Glühlampe natürlich noch einige Fehler enthalten.
+Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
 
 ### <a name="16"></a>Stunde vom 8.11
 
-Heute haben wir uns mit der Veränderung des Codes beschäftigt. Wir haben aber das Problem, dass die Map-Funktion nicht bei der Glühlampe funktioniert. Jedenfalls nicht, wie es noch von der LED gespeichert ist. Also haben gesucht, aber das finden des Fehlers ist uns nicht geglückt.
+Heute haben wir uns 
+
+
+Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
 
 ### <a name="17"></a>Stunde vom 9.11
 
 In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
+
+15.11
+schreiben
+
+16,11
+schreiben, fritzing 
+
+22.11 
+entfallen 
+23.11 
+schreiben 
