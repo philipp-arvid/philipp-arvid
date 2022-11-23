@@ -57,7 +57,9 @@ Bei dieser Idee wird die Anweisung durch Bewegungs und Lichtsensoren gesteuert.
 ### <a name="3"></a>Stunde vom 23.8
 
 Heute haben wir uns final entschieden das in der vorherigen Stunde geplante Projekt umzusetzten. Außerdem haben wir nach den benötigten Materialien recherchiert und 
-haben uns diese rausgesucht. Wir brauchen ein Steckbrett, Kabel, eine LED, Wiederstände und eine Photodiode sowie das Herzstück, den Arduino, der die LED abhängig von der Lichtintensität steuern soll. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben herausgefunden, dass dies gut mit einem Arduino Uno funktioniert, der glücklicherweise auch im Inventar der Schule vorzufinden ist. Wir hoffen, dass es möglich ist, dass der Arduino die Messwerte der photodiode bekommt und diese in einen Stromstärke Wert für die LED übersetzen kann. Doch da wir noch keine Vorkenntnisse über die Funktion des Arduinos haben, werden wir erst recherchieren und kleine Experimente machen, um ein Basiswissen zu erschliessen. 
+haben uns diese rausgesucht. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben uns entschlossen einen Arduinio mit
+Internet verbindung zu verwenden. Zudem haben wir uns vorerst Lichtsensoren rausgesucht und haben wir uns für eine LED Lampe, bei welcher man die Lichtintensität
+abhängig von der Stromstärke dimmen kann, entschieden.
 
 
 ### <a name="4"></a>Stunde vom 24.8
@@ -100,7 +102,7 @@ Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. D
 
 ### <a name="13"></a>Stunde vom 26.10
 
-fehler behoben, mit herr buhl, felher beim kompillieren ,    alten aufbau aufgebaut,     Versuch aufbau glühlampe, recherche, selbst versuicht aufzubaue ( nicht geglückt) pro0nhlenm: aus Arduino nur 5 volt, glühlampe braucht 6 volt. Mithilfe externen Netzteil und Transistor ptroblem umgehen. 
+Heute haben wir den das Arduinoboard mit dem Aufbau wieder angeschlossen und den geschpeicherten Code hochgeladen. Daraufhin gab es aber ein Fehler beim kompilieren. Dann haben wir mit der Zeit immer mehr Teile des Codes kommentiert oder umgeschrieben. Nachdem wir dann nur noch einen simplen Code hatten, welcher zu 100% keinen Fehler hat, haben wir Herrn Buhl nach Hilfe gefragt. Daraufhin haben wir dann den ganzen Code kommentiert, aber der Fehler war immer noch vorhanden. Daraufhin haben wir den Code kopiert und in einen neuen Sketch eingefügt. Dann hat alles wieder funktioniert. Dann hatten wir unser Projekt von der Grundidee fertig. Daraufhin wurde uns von Herrn Buhl empfohlen, das Projekt mit einer Glühlampe und nicht mit Leds durchzuführen, weil diese besser dimmbar ist. Da die Glühlampe aber 6 Volt braucht und das Arduino-Board nur 5 Volt ausgeben kann , muss dafür eine externe Stromquelle hinzugefügt werden. Dies haben wir dann in der restliche Zeit recherchiert und versucht aufzubauen, was uns allerdings nicht geglückt ist. Wir haben aber herausgefunden, dass wir einen Transistor und ein externes Netzteil nutzen müssen und können mit diesem dann in der nächsten Stunde beginnen.
 
 ### <a name="14"></a>Stunde vom 1.11 
 
@@ -120,14 +122,3 @@ Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
 ### <a name="17"></a>Stunde vom 9.11
 
 In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
-
-15.11
-schreiben
-
-16,11
-schreiben, fritzing 
-
-22.11 
-entfallen 
-23.11 
-schreiben 
