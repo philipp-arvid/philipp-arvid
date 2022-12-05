@@ -72,13 +72,11 @@ haben uns diese rausgesucht. Wir brauchen ein Steckbrett, Kabel, eine LED, Wiede
 
 
 ## <p> <h2> <a id="Stundevom24.08.2022"> Stunde vom 24.08.2022 </a> </h2>
-h
-![](IMG_1027.jpeg)
 
 
 In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimentiert. wir haben zuerst eine LED zum blinken gebracht. Dies hat sofort geklappt. Als wir dies geschafft haben hatten wir die Aufgabe einen Schalter mit einzubauen. Bei dieser Aufgabe gab es deutlich mehr schwierigkeiten als bei der ersten Aufgabe. Am Ende haben wir auch dies geschafft. Wie man im Bild sieht, ist der Aufbau etwas komplizierter als bei der ersten Aufgabe. Durch diese Experimente haben wir erste Schritte mit dem Arduino gelernt und außerdem, wie man in der Arduino-App programmiert.
 
-
+![](IMG_1027.jpeg)
 
 ## <p> <h2> <a id="Stundevom30.08.2022"> Stunde vom 30.08.2022 </a> </h2>
 
