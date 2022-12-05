@@ -2,6 +2,11 @@
 
 ### Stundenprotokolle<a name="einf"></a>
 
+</p>
+</br>
+</br>
+
+
 ## Stundenübersicht
 <table align="center">
      
@@ -47,55 +52,9 @@
     <td><a href="#Stundevom24.11.2021"> 27. Stunde vom 24.11.2021 </a></td>
     <td><a href="#Stundevom30.11.2021"> 28. Stunde vom 30.11.2021 </a></td>
 </tr>
-<tr>
 
 
-
-
-
-
-
-
-
-
-
-
-
-[Stundenprotokolle](#einf)  
-
-[Stunde vom 16.8](#1)  
-
-[Stunde vom 17.8](#2)  
-
-[Stunde vom 23.8](#3)   
-
-[Stunde vom 24.8](#4)  
-
-[Stunde vom 30.8](#5)
-
-[Stunde vom 05.09](#6)
-
-[Stunde vom 06.09](#7)
-
-[Stunde vom 07.09](#8)
-
-[Stunde vom 13.09](#9)
-
-[Stunde vom 14.09](#10) 
-
-[Stunde vom 27.09](#11)
-
-[Stunde vom 28.09](#12)
-
-[Stunde vom 26.10](#13)
-
-[Stunde vom 1.11](#14)
-
-[Stunde vom 2.11](#15)
-
-[Stunde vom 8.11](#16)
-
-[Stunde vom 9.11](#17)
+ </table>
   
 ## <p> <h2> <a id="Stundevom16.08.2021"> Stunde vom 16.08.2021 </a> </h2>
    
