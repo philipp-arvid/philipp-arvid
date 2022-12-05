@@ -56,11 +56,11 @@
 
  </table>
   
-## <p> <h2> <a id="Stundevom16.08.2021"> Stunde vom 16.08.2021 </a> </h2>
+## <p> <h2> <a id="Stundevom16.08.2021"> Stunde vom 16.08.2021 </a> </h2> 
    
  In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe vorgestellt, und github gezeigt. Wir haben einen Github Account angelegt und uns einige projekte von ehemaligen Schülern angesehen.Diese gingen in verschiedene richtungen und wir konnten uns auf github einen ersten überblick über 
  unsere optionen verschaffen. Wir haben noch überleht, ob wir ein Computerspiel programmieren wollen, oder vielleicht doch in Richutng physical Computing gehen wollen. 
-</p>
+
 ## <p> <h2> <a id="Stundevom17.08.2021"> Stunde vom 17.08.2021 </a> </h2>
 
 In den heutigen Informatikstunden haben wir uns nochmal näher mit den früheren Projekten beschäftigt. 
