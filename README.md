@@ -20,7 +20,7 @@
     <td><a href="#Stundevom30.08.2021"> 5. Stunde vom 30.08.2021 </a></td>
     <td><a href="#Stundevom06.09.2021"> 6. Stunde vom 06.09.2021 </a></td>
     <td><a href="#Stundevom07.09.2021"> 7. Stunde vom 07.09.2021 </a></td>
-    <td><a href="#Stundevom013.09.2021"> 8. Stunde vom 13.09.2021 </a></td>
+    <td><a href="#Stundevom13.09.2021"> 8. Stunde vom 13.09.2021 </a></td>
 </tr>
 <tr>
     <td><a href="#Stundevom14.09.2021"> 9. Stunde vom 14.09.2021 </a></td>
