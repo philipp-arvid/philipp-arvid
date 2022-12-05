@@ -2,6 +2,63 @@
 
 ### Stundenprotokolle<a name="einf"></a>
 
+## Stundenübersicht
+<table align="center">
+     
+<tr>
+    <td> <a href="#Stundevom16.8.2021"> 1. Stunde vom 16.8.2021 </a></td>
+    <td> <a href="#Stundevom17.8.2021"> 2. Stunde vom 17.8.2021 </a></td>
+    <td><a href="#Stundevom23.8.2021"> 3. Stunde vom 23.8.2021 </a></td>
+    <td><a href="#Stundevom24.8.2021"> 4. Stunde vom 24.8.2021 </a></td>
+</tr>
+<tr>
+    <td><a href="#Stundevom30.8.2021"> 5. Stunde vom 30.8.2021 </a></td>
+    <td><a href="#Stundevom5.9.2021"> 6. Stunde vom 5.9.2021 </a></td>
+    <td><a href="#Stundevom6.9.2021"> 7. Stunde vom 6.9.2021 </a></td>
+    <td><a href="#Stundevom7.9.2021"> 8. Stunde vom 7.9.2021 </a></td>
+</tr>
+<tr>
+    <td><a href="#Stundevom13.9.2021"> 9. Stunde vom 13.9.2021 </a></td>
+    <td><a href="#Stundevom14.9.2021"> 10. Stunde vom 14.9.2021 </a></td>
+    <td><a href="#Stundevom27.9.2021"> 11. Stunde vom 27.9.2021 </a></td>
+    <td><a href="#Stundevom28.9.2021"> 12. Stunde vom 28.9.2021 </a></td>
+ </tr>
+ <tr>
+    <td><a href="#Stundevom22.9.2021"> 13. Stunde vom 22.9.2021 </a></td>
+    <td><a href="#Stundevom28.9.2021"> 14. Stunde vom 28.9.2021 </a></td>
+    <td><a href="#Stundevom26.10.2021"> 15. Stunde vom 26.10.2021 </a></td>
+    <td><a href="#Stundevom01.11.2021"> 16. Stunde vom 01.11.2021 </a></td>
+ </tr>
+ <tr>
+    <td><a href="#Stundevom08.11.2021"> 17. Stunde vom 08.11.2021 </a></td>
+    <td><a href="#Stundevom09.10.2021"> 18. Stunde vom 09.10.2021 </a></td>
+    <td><a href="#Stundevom27.10.2021"> 19. Stunde vom 27.10.2021 </a></td>
+    <td><a href="#Stundevom02.11.2021"> 20. Stunde vom 02.11.2021 </a></td>
+</tr>
+<tr>
+    <td><a href="#Stundevom03.11.2021"> 21. Stunde vom 03.11.2021 </a></td>
+    <td><a href="#Stundevom09.11.2021"> 22. Stunde vom 09.11.2021 </a></td>
+    <td><a href="#Stundevom15.11.2021"> 23. Stunde vom 15.11.2021 </a></td>
+    <td><a href="#Stundevom16.11.2021"> 24. Stunde vom 16.11.2021 </a></td>
+</tr>
+<tr>
+    <td><a href="#Stundevom17.11.2021"> 25. Stunde vom 17.11.2021 </a></td>                           
+    <td><a href="#Stundevom23.11.2021"> 26. Stunde vom 23.11.2021 </a></td>                      
+    <td><a href="#Stundevom24.11.2021"> 27. Stunde vom 24.11.2021 </a></td>
+    <td><a href="#Stundevom30.11.2021"> 28. Stunde vom 30.11.2021 </a></td>
+</tr>
+<tr>
+
+
+
+
+
+
+
+
+
+
+
 
 
 [Stundenprotokolle](#einf)  
@@ -40,12 +97,12 @@
 
 [Stunde vom 9.11](#17)
   
-### <a name="1"></a>Stunde vom 16.8
+## <p> <h2> <a id="Stundevom3.8.2021"> Stunde vom 16.8.2021 </a> </h2>
    
  In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe vorgestellt, und github gezeigt. Wir haben einen Github Account angelegt und uns einige projekte von ehemaligen Schülern angesehen.Diese gingen in verschiedene richtungen und wir konnten uns auf github einen ersten überblick über 
  unsere optionen verschaffen. Wir haben noch überleht, ob wir ein Computerspiel programmieren wollen, oder vielleicht doch in Richutng physical Computing gehen wollen. 
 
-### <a name="2"></a>Stunde vom 17.8
+## <p> <h2> <a id="Stundevom17.8.2021"> Stunde vom 3.8.2021 </a> </h2>
 
 In den heutigen Informatikstunden haben wir uns nochmal näher mit den früheren Projekten beschäftigt. 
 Wir haben uns die verschiedenen Möglichkeiten alle ausführlich angeguckt und haben entschieden, dass wir etwas in Richtung Physical Computing machen wollen. 
@@ -54,13 +111,13 @@ Es gibt schon erste Ideen wie, dass man wenn ein Mensch im Raum ist die Lichthel
 Die Helligkeit im raum soll gemessen werden und dann wird die Helligkeit einer Lampe gesteuert, sodass es im Raum immer gleich hell ist.
 Bei dieser Idee wird die Anweisung durch Bewegungs und Lichtsensoren gesteuert.
 
-### <a name="3"></a>Stunde vom 23.8
+## <p> <h2> <a id="Stundevom23.8.2021"> Stunde vom 3.8.2021 </a> </h2>
 
 Heute haben wir uns final entschieden das in der vorherigen Stunde geplante Projekt umzusetzten. Außerdem haben wir nach den benötigten Materialien recherchiert und 
 haben uns diese rausgesucht. Wir brauchen ein Steckbrett, Kabel, eine LED, Wiederstände und eine Photodiode sowie das Herzstück, den Arduino, der die LED abhängig von der Lichtintensität steuern soll. Für den Arduino haben wir uns auf der Webiste zu den verschiednen Modellen informiert und haben herausgefunden, dass dies gut mit einem Arduino Uno funktioniert, der glücklicherweise auch im Inventar der Schule vorzufinden ist. Wir hoffen, dass es möglich ist, dass der Arduino die Messwerte der photodiode bekommt und diese in einen Stromstärke Wert für die LED übersetzen kann. Doch da wir noch keine Vorkenntnisse über die Funktion des Arduinos haben, werden wir erst recherchieren und kleine Experimente machen, um ein Basiswissen zu erschliessen. 
 
 
-### <a name="4"></a>Stunde vom 24.8
+## <p> <h2> <a id="Stundevom24.8.2021"> Stunde vom 3.8.2021 </a> </h2>
 
 In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimentiert. wir haben zuerst eine LED zum blinken gebracht. Dies hat sofort geklappt. Als wir dies geschafft haben hatten wir die Aufgabe einen Schalter mit einzubauen. Bei dieser Aufgabe gab es deutlich mehr schwierigkeiten als bei der ersten Aufgabe. Am Ende haben wir auch dies geschafft. Wie man im Bild sieht, ist der Aufbau etwas komplizierter als bei der ersten Aufgabe. Durch diese Experimente haben wir erste Schritte mit dem Arduino gelernt und außerdem, wie man in der Arduino-App programmiert.
 
