@@ -94,7 +94,7 @@ In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip r
 Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben wir uns weiter informiert und wollten dann den erflogreich verbundenen fotosensor mit einer LED verbinden. Unser Ziel war es, dass die LED leuchtet wenn der Fotosensor ein niedrigen Wert misst, also wenn es dunkler wird, und entsprechend bei einem hohen wert, also wenn es heller wird, aus geht. Also wird die Halligkeit der LED durch die Messwerte des Fotosensors gesteuert. Dies haben wir letztendlich auch geschafft. Zuerst haben wir dies mit einem "if" geschafft. Das heißt, wenn die Helligkeit, welche der Fotosensor unterschreitet, geht die LED an. Dann haben wir uns über Arduino Map informiert und haben durch dies die Helligkeit gesteuert. Die Helligkeitswerte haben wir also in AnalogWrite werte übersetzt und "gemapt". Dadurch gab der Arduino dann eine bestimmte Voltzahl aus und die LED leuchtet verschieden Hell. 
 <details>
     <summary>Video</summary>
-youtube link von IMG_1073.MOV
+youtube link: https://youtube.com/shorts/dSEDDhvoHi0
 </details>
 
 <details>
