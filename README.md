@@ -168,7 +168,7 @@ Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in ein
 
 ## <p> <h2> <a id="Stundevom08.11.2022"> Stunde vom 08.11.2022 </a> </h2>
 
-Heute haben wir uns 
+Heute haben wir uns um den code gekümmert, also dass dieser auch mit der neuen Glühlampe funiktioniert. Dies hat leider nicht mehr mit dem alten Code ghekloappt und si mussten wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliche funktion wie mit dem LEDs hervorzubringen. UNser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. mehr schirieben!
 
 
 Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
@@ -181,23 +181,23 @@ In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben d
 schreiben
 
 ## <p> <h2> <a id="Stundevom16.11.2022"> Stunde vom 16.11.2022 </a> </h2>
-schreiben, fritzing 
+schreiben, fritzing Idee angeschaut für später bei weiterarbeitung 
 
 ## <p> <h2> <a id="Stundevom22.11.2022"> Stunde vom 22.11.2022 </a> </h2>
 entfallen 
 
 ## <p> <h2> <a id="Stundevom23.11.2022"> Stunde vom 23.11.2022 </a> </h2>
-schreiben 
+schreiben am blog und Projektseite Gedanjken gemacht qwie man die strukturiert
 
 ## <p> <h2> <a id="Stundevom29.11.2022"> Stunde vom 29.11.2022 </a> </h2> <p>
      
 entfllen     
      
 ## <p> <h2> <a id="Stundevom30.11.2022"> Stunde vom 30.11.2022 </a> </h2> <p>     
-     
-entfllen 
+     Tabelle im Blog angefangen, weitere Blog einträge überarbeitet 
      
 ## <p> <h2> <a id="Stundevom06.12.2022"> Stunde vom 06.12.2022 </a> </h2> <p>     
-s
+weiter geschireben, Tabelle im Blog fertiggestellt
      
 ## <p> <h2> <a id="Stundevom07.12.2022"> Stunde vom 07.12.2022 </a> </h2> <p>      
+code in blog geschirieben, die ersten seiten an projektseite geschirbeen und unterpunkte eingefügt
