@@ -114,8 +114,12 @@ void loop() {
   licht= analogRead(0);
   Serial.println(licht);
 
-  tmp= map(licht, 300, 
-      255-map
+  tmp= map(licht, 300,700,0,255);
+  ledOut = 255-tmp;
+     
+  analogWrite(11,ledOut);
+     
+  }
  ```
 </details>
      
