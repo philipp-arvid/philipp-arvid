@@ -145,6 +145,10 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 ## <p> <h2> <a id="Stundevom14.09.2022"> Stunde vom 14.09.2022 </a> </h2>
 
 Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll.In diesem Schuhkarton kann unser Aufbau dann immer behgalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile sehr komplex ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Außerdem haben wir versucht den Mittelwert zwischen den beiden Fotoioden zu bilden. Dies haben wir mit einer for-Schleife probiert, was aber nicht funktioniert hat.
+<details>
+    <summary>video</summary>
+   youtube link:  https://youtube.com/shorts/-gh2HerkUUg 
+   <details>
 
 ## <p> <h2> <a id="Stundevom27.09.2022"> Stunde vom 27.09.2022 </a> </h2>
 
