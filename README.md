@@ -81,7 +81,7 @@ In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimenti
 
 ![](IMG_1027neu.jpeg)
 ![](IMG_1029neu.jpeg)
-
+</details>
 ## <p> <h2> <a id="Stundevom30.08.2022"> Stunde vom 30.08.2022 </a> </h2>
 
 In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dananch haben wir wieder experimentiert und versucht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. Wir haben nämlich den Fotosensor an den Arduino angeschlossen. Dann wurden diese an den Computer weitergegeben, bei welchem wir sie durch den "serielle Monitor" ablesen konnten. Dann haben wir noch gesteuert, wie oft die Werte gem,essen werden sollen, da sie sonst dauerhaft gemessen wwerden und dies bei unserem Projekt sehr wahrscheinlich zu Rückkopplungen führen würde.
@@ -93,6 +93,7 @@ Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben w
 <details>
     <summary>Video</summary>
 youtube link von IMG_1073.MOV
+</details>
 ## <p> <h2> <a id="Stundevom06.09.2022"> Stunde vom 06.09.2022 </a> </h2>
 
 Heute haben wir zunächst den aufbau der letzen Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, um die Schwankungen zu minimieren. Die LED wird sehr hell bei niedrigen Lichtintensitäten und daraufhin wird wieder merh Licht gemessen und die LED wird dunkler. Wir haben uins verschiedene Funktionen auf der Arduino website angeguckt, doch haben noch keine Lösung für das Problem in dieser Stunde gefunden. Wir haben uns außerdem noch überlegt, dass man möglicherweise in Zukunft einen Richtwert programmieren könnte, der immer als Ziel gilt, um die Schwankungen auch unter nderem zu minimieren. des Weiteren haben wir weitere zukunftspläne für unser Projekte aausgearbeitet und uns übelegt, dass man vielleicht mehrere LEDs und Photodioden einbauen könnte.
