@@ -98,9 +98,10 @@ youtube link von IMG_1073.MOV
 </details>
 
 <details>
-    <summary>Video</summary>
+    <summary>Code</summary>   
+     
 ```c
-
+     
 int licht;
 int ledOut
 int tmp;
@@ -120,9 +121,15 @@ void loop() {
   analogWrite(11,ledOut);
      
   }
- ```
+     
+```
+
+    
 </details>
      
+
+
+
 ## <p> <h2> <a id="Stundevom06.09.2022"> Stunde vom 06.09.2022 </a> </h2>
 
 Heute haben wir zunächst den aufbau der letzen Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, um die Schwankungen zu minimieren. Die LED wird sehr hell bei niedrigen Lichtintensitäten und daraufhin wird wieder merh Licht gemessen und die LED wird dunkler. Wir haben uins verschiedene Funktionen auf der Arduino website angeguckt, doch haben noch keine Lösung für das Problem in dieser Stunde gefunden. Wir haben uns außerdem noch überlegt, dass man möglicherweise in Zukunft einen Richtwert programmieren könnte, der immer als Ziel gilt, um die Schwankungen auch unter nderem zu minimieren. des Weiteren haben wir weitere zukunftspläne für unser Projekte aausgearbeitet und uns übelegt, dass man vielleicht mehrere LEDs und Photodioden einbauen könnte.
