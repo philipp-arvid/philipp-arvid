@@ -66,3 +66,4 @@ Ausblick
 Für die Zukunft haben wir uns überlegt, dass wir weiter mit dem Arduino arbeiten wollen, weil wir jetzt schon ein gutes Grundwissen dazu haben. 
 Wir wollen aber nicht mehr mit der Helligkeit, sondern mit der wärme arbeiten. 
 Unser Ziel ist es nämlich, dasswir durch eine Glühlampe, welche wärme abgibt, die Temperatur im Raum steuern können. 
+Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. Bei diesem Projekt ist uns besonders wichtig, dass die Wärme auch wirklich gehalten oder hergestellt wird. Dies ist auch noch eine veränderung, weil man mit der HElligkeit keinen genauen Wert erreichen kann.
