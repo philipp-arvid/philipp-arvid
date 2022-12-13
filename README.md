@@ -51,9 +51,6 @@
 </tr>
 <tr>
      
-    <td><a href="#Stundevom13.12.2022"> 25. Stunde vom 13.12.2022 </a></td>
-    <td><a href="#Stundevom14.12.2022"> 26. Stunde vom 14.12.2022 </a></td>
-</tr>
  </table>
   
 ## <p> <h2> <a id="Stundevom16.08.2022"> Stunde vom 16.08.2022 </a> </h2> <p>
@@ -79,7 +76,7 @@ haben uns diese rausgesucht. Wir brauchen ein Steckbrett, Kabel, eine LED, Wiede
 ## <p> <h2> <a id="Stundevom24.08.2022"> Stunde vom 24.08.2022 </a> </h2>
 
 
-In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimentiert. wir haben zuerst eine LED zum blinken gebracht. Dies hat sofort geklappt. Als wir dies geschafft haben hatten wir die Aufgabe einen Schalter mit einzubauen. Bei dieser Aufgabe gab es deutlich mehr schwierigkeiten als bei der ersten Aufgabe. Am Ende haben wir auch dies geschafft. Wie man im Bild sieht, ist der Aufbau etwas komplizierter als bei der ersten Aufgabe. Durch diese Experimente haben wir erste Schritte mit dem Arduino gelernt und außerdem, wie man in der Arduino-App programmiert.
+In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimentiert. wir haben zuerst eine LED zum blinken gebracht. Dies hat sofort geklappt. Als wir dies geschafft haben, bekamen wir die Aufgabe einen Schalter mit einzubauen. Bei dieser Aufgabe gab es deutlich mehr schwierigkeiten als bei der ersten Aufgabe. Am Ende haben wir auch dies geschafft. Wie man im Bild sieht, ist der Aufbau etwas komplizierter als bei der ersten Aufgabe. Durch diese Experimente haben wir erste Schritte mit dem Arduino gelernt und außerdem, wie man grundsätzlich in der Arduino-App programmiert.
 
 <details>
     <summary>Bilder der ersten Versuche</summary>
@@ -91,12 +88,12 @@ In der heutigen doppelstunde haben wir das erste Mal mit dem arduino experimenti
 
 ## <p> <h2> <a id="Stundevom30.08.2022"> Stunde vom 30.08.2022 </a> </h2>
 
-In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dananch haben wir wieder experimentiert und versucht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. Wir haben nämlich den Fotosensor an den Arduino angeschlossen. Dann wurden diese an den Computer weitergegeben, bei welchem wir sie durch den "serielle Monitor" ablesen konnten. Dann haben wir noch gesteuert, wie oft die Werte gem,essen werden sollen, da sie sonst dauerhaft gemessen wwerden und dies bei unserem Projekt sehr wahrscheinlich zu Rückkopplungen führen würde.
+In der heutigen Stunde haben wir zuerst nach einem passendem weissen LED Strip recherchiert. Wir haben versucht einen 5V Strip zu finden, da wir dann keinen Mosfar benutzen müssten. Dananch haben wir wieder experimentiert und versucht mit einem fotosensor Licht zu messen und dies erflogreicht geschafft. Wir haben den Fotosensor über ein Steckbrett an den Arduino angeschlossen. Dann wurden die gemessenen Lichtintensitäten an den Computer weitergegeben, bei welchem wir sie durch den "serielle Monitor" ablesen konnten. Dann haben wir noch gesteuert, wie oft die Werte gemessen werden sollen, da sie sonst dauerhaft gemessen wwerden und dies bei unserem Projekt sehr wahrscheinlich zu Rückkopplungen führen würde.
 
 
 ## <p> <h2> <a id="Stundevom31.08.2022"> Stunde vom 31.08.2022 </a> </h2>
 
-Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben wir uns weiter informiert und wollten dann den erflogreich verbundenen fotosensor mit einer LED verbinden. Unser Ziel war es, dass die LED leuchtet wenn der Fotosensor ein niedrigen Wert misst, also wenn es dunkler wird, und entsprechend bei einem hohen wert, also wenn es heller wird, aus geht. Also wird die Halligkeit der LED durch die Messwerte des Fotosensors gesteuert. Dies haben wir letztendlich auch geschafft. Zuerst haben wir dies mit einem "if" geschafft. Das heißt, wenn die Helligkeit, welche der Fotosensor unterschreitet, geht die LED an. Dann haben wir uns über Arduino Map informiert und haben durch dies die Helligkeit gesteuert. Die Helligkeitswerte haben wir also in AnalogWrite werte übersetzt und "gemapt". Dadurch gab der Arduino dann eine bestimmte Voltzahl aus und die LED leuchtet verschieden Hell. 
+Zuerst haben wir den Aufbau aus der gestrigen Stunde wiederholt und dann haben wir uns weiter informiert und wollten dann den erflogreich verbundenen fotosensor mit einer LED verbinden. Unser Ziel war es, dass die LED leuchtet, wenn der Fotosensor ein niedrigen Wert misst, also wenn es dunkler wird und entsprechend bei einem hohen wert, also wenn es heller wird, aus geht. Also wird die Helligkeit der LED durch die Messwerte des Fotosensors gesteuert. Dies haben wir letztendlich auch geschafft. Zuerst haben wir dies mit "if" geschafft. Das heißt, wenn die Helligkeit beim fotonsensor einen gewissen Wert unterschreitet, geht die LED an. Dann haben wir uns über Arduino Map informiert und haben durch dies die Helligkeit gesteuert. Die Helligkeitswerte haben wir also in AnalogWrite werte übersetzt und "gemapt". Dadurch gab der Arduino dann eine bestimmte Voltzahl aus und die LED leuchtet verschieden Hell.Bei der Map Funktion werden die gemessen werte des
 <details>
     <summary>Video</summary>
 youtube link: https://youtube.com/shorts/dSEDDhvoHi0
@@ -137,7 +134,7 @@ void loop() {
 
 ## <p> <h2> <a id="Stundevom06.09.2022"> Stunde vom 06.09.2022 </a> </h2>
 
-Heute haben wir zunächst den aufbau der letzen Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, um die Schwankungen zu minimieren. Die LED wird sehr hell bei niedrigen Lichtintensitäten und daraufhin wird wieder merh Licht gemessen und die LED wird dunkler. Wir haben uins verschiedene Funktionen auf der Arduino website angeguckt, doch haben noch keine Lösung für das Problem in dieser Stunde gefunden. Wir haben uns außerdem noch überlegt, dass man möglicherweise in Zukunft einen Richtwert programmieren könnte, der immer als Ziel gilt, um die Schwankungen auch unter nderem zu minimieren. des Weiteren haben wir weitere zukunftspläne für unser Projekte aausgearbeitet und uns übelegt, dass man vielleicht mehrere LEDs und Photodioden einbauen könnte.
+Heute haben wir zunächst den aufbau der letzen Woche wieder aufgebaut und haben uns weitere Funktionen auf der Arduino website über den Arduino durchgelesen, um die Schwankungen zu minimieren. Die LED wird sehr hell bei niedrigen Lichtintensitäten und daraufhin wird wieder mehr Licht gemessen und die LED wird dunkler. Wir haben uins verschiedene Funktionen auf der Arduino website angeguckt, doch haben noch keine Lösung für das Problem in dieser Stunde gefunden. Wir haben uns außerdem noch überlegt, dass man möglicherweise in Zukunft einen Richtwert programmieren könnte, der immer als Ziel gilt, um die Schwankungen auch unter nderem zu minimieren. des Weiteren haben wir weitere zukunftspläne für unser Projekte aausgearbeitet und uns übelegt, dass man vielleicht mehrere LEDs und Photodioden einbauen könnte.
 
 ## <p> <h2> <a id="Stundevom07.09.2022"> Stunde vom 07.09.2022 </a> </h2>
 
@@ -149,11 +146,12 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 
 ## <p> <h2> <a id="Stundevom14.09.2022"> Stunde vom 14.09.2022 </a> </h2>
 
-Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll.In diesem Schuhkarton kann unser Aufbau dann immer behgalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile sehr komplex ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Außerdem haben wir versucht den Mittelwert zwischen den beiden Fotoioden zu bilden. Dies haben wir mit einer for-Schleife probiert, was aber nicht funktioniert hat.
+Heute haben wir den ganzen Aufbau in den Schuhkarton gebaut, welches später unser "Zimmer" sein soll.In diesem Schuhkarton kann unser Aufbau dann immer beibehalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile sehr komplex ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Außerdem haben wir versucht den Mittelwert zwischen den beiden Fotoioden zu bilden. Dies haben wir mit einer for-Schleife probiert, was aber nicht funktioniert hat.
 <details>
     <summary>video</summary>
    youtube link:  https://youtube.com/shorts/-gh2HerkUUg 
-   <details>
+     
+   </details>
 
 ## <p> <h2> <a id="Stundevom27.09.2022"> Stunde vom 27.09.2022 </a> </h2>
 
