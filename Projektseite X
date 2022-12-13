@@ -39,7 +39,16 @@ Außerdem haben wir mehr auf der Arduino-Seite gelesen. Denn sobald es spezielle
 Also haben wir am Ende unser Projekt durch nachdenken über Fehler und die Arduino-Seite beendet. Dies ging deutlich schneller und war erfolgreicher.
 
 Entwicklung des projekts
-das Konzept/ Idee
+
+Die Idee
+
+Als Gruppe haben wir uns ja wie schon gesagt auf ein Projekt des physical Computings geeinigt.
+Dann haben wir uns einige Projekte angeguckt und haben uns überlegt, dass wir auch etrwas messen und steuern möchten.
+Dabei haben wir uns überlegt, dass wir mit Licht arbeiten wollen, weil dies eine gute Herausforderung darstellt, weil es aufgrund der schnell wechselnden Helligkeit,
+schwierig ist, die Helligkeit zu steuern. Dies hätte zu stark schwankenden Werten kommen können. Aber trotz der möglichen Probleme wollten wir das Projekt angehen.
+Dies wollten wir auf einen Schuhkarton übertragen, weil wir nicht das Material haben, um das Projekt in einem Raum auszuführen.
+
+
 softwaretechnische Umsetzung 
 hardwaretechnishce Umsetzung 
 Das endprodukt
@@ -66,4 +75,6 @@ Ausblick
 Für die Zukunft haben wir uns überlegt, dass wir weiter mit dem Arduino arbeiten wollen, weil wir jetzt schon ein gutes Grundwissen dazu haben. 
 Wir wollen aber nicht mehr mit der Helligkeit, sondern mit der wärme arbeiten. 
 Unser Ziel ist es nämlich, dasswir durch eine Glühlampe, welche wärme abgibt, die Temperatur im Raum steuern können. 
-Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. Bei diesem Projekt ist uns besonders wichtig, dass die Wärme auch wirklich gehalten oder hergestellt wird. Dies ist auch noch eine veränderung, weil man mit der HElligkeit keinen genauen Wert erreichen kann.
+Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. 
+Bei diesem Projekt ist uns besonders wichtig, dass die Wärme auch wirklich gehalten oder hergestellt wird. Dies ist auch noch eine veränderung, 
+weil man mit der HElligkeit keinen genauen Wert erreichen kann.
