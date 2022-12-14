@@ -181,10 +181,7 @@ Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in ein
 
 ## <p> <h2> <a id="Stundevom08.11.2022"> Stunde vom 08.11.2022 </a> </h2>
 
-Heute haben wir uns um den code gekümmert, also dass dieser auch mit der neuen Glühlampe funiktioniert. Dies hat leider nicht mehr mit dem alten Code ghekloappt und si mussten wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliche funktion wie mit dem LEDs hervorzubringen. UNser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. mehr schirieben!
-
-
-Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
+Heute aben wir uns um den code gekümmert, also dass dieser auch mit der neuen Glühlampe funktioniert. Dies hat leider natürlicherweise nicht mehr mit dem alten Code geklappt und deshalb müssen wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliche funktion wie mit dem LEDs hervorzubringen. Unser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. Wir könnten uns vorstellen, dass es an unserem Umgang im Code mit dem Transistor liegt. Wir haben in der Stunde auch noch recherchiert, wie man dieses Problem lösen könnte. Wir befürchtem, das wir nicht mehr die map funktion benutzen können und anstelle uns pid widmen müssen. 
 
 ## <p> <h2> <a id="Stundevom09.11.2022"> Stunde vom 09.11.2022 </a> </h2>
 
@@ -233,30 +230,28 @@ void loop() {
  </details> 
      
 ## <p> <h2> <a id="Stundevom15.11.2022"> Stunde vom 15.11.2022 </a> </h2>
-schreiben
+Heute haben wir ein Video von unserem erreichten Projekt gemacht und angefangen an unserer Projektseite zu arbeiten. Dafür haben wir uns eine Gliederung überlegt, die für uinser Projekt passend ist und einen Plan gemacht, wie wir die benötigten Texte aufteilen. Zudem haben wir festgestellt, dass wir ein schönes Layout für unseren Blog haben wollen und haben uns vorgenommen an diesem noch weiter zu arbeiten und die Texte auf Fehler zu korriegieren. 
 
 ## <p> <h2> <a id="Stundevom16.11.2022"> Stunde vom 16.11.2022 </a> </h2>
-schreiben, fritzing Idee angeschaut für später bei weiterarbeitung 
+Auch Heute haben wir am Porjekt weitergeschrieben und weitere Fortschritte bei der Fertigstellung des Blogs und der Prjektseite gemacht.
 
 ## <p> <h2> <a id="Stundevom22.11.2022"> Stunde vom 22.11.2022 </a> </h2>
-entfallen 
+DIese Stunde ist leider entfallen und wir haben ein paar kleinere Veränderungen am Blog von Zuhause durchgeführt.
 
 ## <p> <h2> <a id="Stundevom23.11.2022"> Stunde vom 23.11.2022 </a> </h2>
-schreiben am blog und Projektseite Gedanjken gemacht qwie man die strukturiert
+Heute habem wir uns weiter GEdanken gemacht, wie man den Blog und die Projektseite moch anschaulicher machen könnte. Dafür haben wir bei einem blivk auf vorherige Projekte die Software Fritzing entdeckt. Dabei handelt es sich um ein Programm, bei welchem man (Schaltkreise) darstellen kann. Wir haben uns gedacht, dass wir auch im Anblick der Zeit dies noch sehr gut umsetztemn können, um unseren Aufbau noch besser zu zeigen. Außerdem können wir so vorherige kleinere Aufbauten im Laufe des Projekts so noch einmal visualisieren. Mit der Recherche über das Programm haben wir diese Stunde angefangen und auch arbeitsteilig weiter an der Projektseite gearbeitet. 
 
 ## <p> <h2> <a id="Stundevom29.11.2022"> Stunde vom 29.11.2022 </a> </h2> <p>
-     
-entfllen     
+Diese Stunde ist leider entfallen und wir haben mal wieder ein wenig von Zuahsue aus an unseren Github Seiten weitergearbeitet.   
      
 ## <p> <h2> <a id="Stundevom30.11.2022"> Stunde vom 30.11.2022 </a> </h2> <p>     
-     Tabelle im Blog angefangen, weitere Blog einträge überarbeitet 
-     (ausgefallen kann in andere Stunde)
+In dieser Stunde haben wir die Tabelle im Blog fertiggestellt, welches den Blog deutlich übersichtlicher und schöner macht.ANsosnten haben wir einfach Heute , wie zuvor.  
      
 ## <p> <h2> <a id="Stundevom06.12.2022"> Stunde vom 06.12.2022 </a> </h2> <p>     
-weiter geschireben, Tabelle im Blog fertiggestellt
+Heute haben wir einerseits über Fritzing gelesen und ein Video geschaut und weiter am Blog und an der Projektseite gearbeitet. Auch haben wir nach der Schule die Fritzing Software heute schonmal heruntergeladne und die ersten einfachen Stromkreise dargestellt.  
      
 ## <p> <h2> <a id="Stundevom07.12.2022"> Stunde vom 07.12.2022 </a> </h2> <p>      
-code in blog geschirieben, die ersten seiten an projektseite geschirbeen und unterpunkte eingefügt
+Heute haben wir wieder weiter an der Projektseite und am Blog gearbeitet und haben uns auch schonmal überlegt, was wir im 2. Halbjahr machen wollen. Durch Gespräche mit Herr Buhl hatten wir schon eine Vorstellung: Wieder eine Glühlampe aber diemsal nicht mit dem Fokus auf die Helligkeit sondern auf die Temepratur. 
 
 ## <p> <h2> <a id="Stundevom13.12.2022"> Stunde vom 13.12.2022 </a> </h2> <p>
 
