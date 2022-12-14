@@ -173,6 +173,12 @@ Heute ist die Stunde ausgefallen. Wir haben aber Zuhause recherchiert und über 
 
 Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
 
+<details>
+       <summary>bild</summary>
+       
+   ![](IMG_2247.jpeg)
+ </details> 
+
 ## <p> <h2> <a id="Stundevom08.11.2022"> Stunde vom 08.11.2022 </a> </h2>
 
 Heute haben wir uns um den code gekümmert, also dass dieser auch mit der neuen Glühlampe funiktioniert. Dies hat leider nicht mehr mit dem alten Code ghekloappt und si mussten wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliche funktion wie mit dem LEDs hervorzubringen. UNser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. mehr schirieben!
