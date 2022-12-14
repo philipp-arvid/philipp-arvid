@@ -20,6 +20,16 @@ Darüber haben wir uns im Fazit noch genauer Gedanken gemacht.
 
 genutzte programme 
 
+Arduino App
+Die Arduino App ist natürlich die Grundlage unseres Projekts. Über diese haben wir unser Projekt gesteuert. Wir haben mit einem Arduino UNO gearbeitet.
+Über die Aruino App haben wir den Arduino gesteuert, welcher dann durch die Anweisungen die Helligkeit der Glühbirne steuert.
+Für dies Programm haben uns am Anfang Videos geholfen. Am Ende war es aber besonders die Website der App, welche uns geholfen hat. 
+Bei dieser gab es die allgemeinen Erklärungen, welche wuir dann auf unser Projekt gut übertragen konnten
+
+github
+
+Fritzing
+
 Vorgehen 
 
 Am Anfang hat Herr Buhl uns erstmal gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. 
