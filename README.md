@@ -244,6 +244,7 @@ entfllen
      
 ## <p> <h2> <a id="Stundevom30.11.2022"> Stunde vom 30.11.2022 </a> </h2> <p>     
      Tabelle im Blog angefangen, weitere Blog einträge überarbeitet 
+     (ausgefallen kann in andere Stunde)
      
 ## <p> <h2> <a id="Stundevom06.12.2022"> Stunde vom 06.12.2022 </a> </h2> <p>     
 weiter geschireben, Tabelle im Blog fertiggestellt
