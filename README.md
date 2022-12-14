@@ -185,9 +185,46 @@ Problem ösung map geht nicht, leuchten mit photodioden rechercvhe
 In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
 
 <details>
+       <summary>video</summary>
 youtubelink:https://youtu.be/95P9wpTDUl0
      
  </details>     
+ 
+ 
+<details>
+       <summary>fertiger code</summary>
+     
+```c
+const int transistor = 10;
+int aus;
+int licht;
+int licht2;
+
+void setup() {
+  pinMode (10, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() {
+
+  licht= analogRead(0);
+  licht2= analogRead(1);
+  delay(20);
+
+  Serial.println(licht + licht2);
+
+  aus = 255-map(licht + licht2, 150, 800, 0, 255);
+ if (licht + licht2 > 800)
+  aus=0;
+  if (licht + licht2 < 150)
+  aus=255;
+
+  analogWrite(transistor, aus);
+     
+  }
+     
+```
+     
+ </details> 
      
 ## <p> <h2> <a id="Stundevom15.11.2022"> Stunde vom 15.11.2022 </a> </h2>
 schreiben
