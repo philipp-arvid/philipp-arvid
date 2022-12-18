@@ -152,24 +152,26 @@ In dieser Stunde haben wir den Aubau mit dem Photosensor und der LED nochmals au
 
 ### 10. Stunde vom 14.09.2022<a name="zehn"></a>
 
-Heute haben wir den ganzen Aufbau in einen Schuhkarton gebaut, welches unser "Zimmer" simulieren soll. In diesem Schuhkarton kann unser Aufbau dann immer beibehalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile recht aufwendig ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Wir haben nun überlegt, dass wir unseren Aufbau weiter ausweiten wollen und mehrer LEDs und Photosensoren bauen wollen. Wir starten mit dem Einbauen einer zweiten Photodiode und haben dies auch direkt geschafft. Anschließend haben wir versucht den Mittelwert zwischen den beiden Fotodioden zu bilden, um die mEssung beider zu berücksichtigen und unsere restlichen Parameter für die Map Funktion beizubehalten. Dies haben wir mit einer for-Schleife probiert, was aber noch nicht funktioniert hat.
+Heute haben wir den ganzen Aufbau in einen Schuhkarton gebaut, welches unser "Zimmer" simulieren soll. In diesem Schuhkarton kann unser Aufbau dann immer beibehalten werden und wir können in den darauffolgenden Stunden sofort starten. Dies ist sehr nützlich, weil unser Aufbau mittlerweile recht aufwendig ist und wir durch den erneuten Aufbau in jeder Stunde viel Zeit verlieren. Wir haben nun überlegt, dass wir unseren Aufbau weiter ausweiten wollen und mehrer LEDs und Photosensoren bauen wollen. Wir starten mit dem Einbauen einer zweiten Photodiode und haben dies auch direkt geschafft. Anschließend haben wir versucht den Mittelwert zwischen den beiden Fotodioden zu bilden, um die Messung beider zu berücksichtigen und unsere restlichen Parameter für die Map Funktion beizubehalten. Dies haben wir mit einer for-Schleife probiert, was aber noch nicht funktioniert hat.
+
+
+### 11. Stunde vom 27.09.2022<a name="elf"></a>
+
+In der heutigen Informatikstunde haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Die Operatoren, die wir auf der Seite der Arduino Refernces lesen, erscheinen uns relativ komplex für das einfache kombinieren zweier Informationsquellen. Daher sind wir auch neben den ansehen von Youtube Tutorials auch selber am Nachdenken, wie man dieses Problem beheben kann.
+
+### 12. Stunde vom 28.09.2022<a name="zwölf"></a>
+
+Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. Die ganzen Funktionen aus dem Internet haben aber nicht geklappt und wir haben uns daraufhin selbst überlegt, dass wir einfach die beiden Werte der Fotoioden addieren und die Werte der Map-Funktion auch verdoppeln. Somit haben wir unser langes Problem mit einer einfachen Idee gelöst. Denn dadurch, dass wir anfangst unsere Parameter für die Map Funktion nicht verändern wollten, haben wir es uns unnötig kompliziert gemacht. Nach dem Verändern des Codes, hat das messen der beiden Photodioden so auch geklappt, da wir im seriellen Monitor auch genau ungefähr doppelt so hohe Werte beobachten konnten. Daraufhin haben wir dirkt unser nächstes zwischenziel realisiert, undzwar haben wir eine zweite LED eingebaut und auch das Integrieren in den Code und Aufbau hat umgehend funktioniert.
+
 <details>
     <summary>video</summary>
    youtube link:  https://youtube.com/shorts/-gh2HerkUUg 
      
    </details>
-
-### 11. Stunde vom 27.09.2022<a name="elf"></a>
-
-In der heutigen Informatikstunfe haben wir weiter versucht herauszufinden, wie man einen Mittelwert bildet. Dies haben wir zuerst mit der Array- Funktion und dananch mit der Millis-Funktion versucht. Bei beiden Methoden sind wir allerdings gescheitert. Alle Funktionen sind sehtr komlex, obwohl wir nur zwei Werte haben.
-
-### 12. Stunde vom 28.09.2022<a name="zwölf"></a>
-
-Heutige haben wir wieder weiter recherchiert, wie man einen Mittelwert bilden. Die ganzen Funktionen aus dem Internet haben aber nicht geklappt und wir haben uns überlegt, dass wir einfach die beiden Werte der Fotoioden Addieren und die Werte der Map-Funktion auch verdoppeln. Somit haben wir unser langes Problem mit einer einfachen Idee gelöst. Dazu haben wir durch die If-Funktion bestimmt, dass die LEDs ausgehen, wenn es zu hell wird. Dies hat davor nicht funktiopniert, weil sie dann außerhalb der Map Funktion lagen und dann normal geleuchtet haben.
-
+   
 ### 13. Stunde vom 26.10.2022<a name="dreizehn"></a>
 
-Heute haben den Code wieder eingefügt und den Arduino angeschlossen. Daraufhin wurde uns ein Fehler beim kompillieren angezeigt. Daraufhin haben wir mehrere Zeilen geändert und sie teilweise kommentiert. Mit diesem simlen Code waren wir uns zu 100% sicher, dass kein Fehler mehr enthalten war. Als der Fehler daraufhin immernoch auftauchete haben wir Herrn Buhl um Hilfe gebeten. Nachdem wir dann alles kommentiert haben und der Fehler immernoch auftauchte, haben wir alles in einen neuen Sketch kopiert. Daraufhin hat der Code wieder funktioniert. Dann hatten wir unseren Aufbau vom Prinzip her mit Code fertig. Darauhin hat uns Herr Buhl vorgeschlagen eine Glühlampe anmstatt der LEDs, weil diese besser dimmbar sind. Dann haben wir uns mit der Glühlampe beshcäftigt und versucht, diese zum leuchten zu bringen. Dies hat aber nicht geklappt. Aufgrund der 6 Volt, die ide Glühlampe braucht und der nur vorhndenen 5 V des Arduinos muss man noch ein externes Netzteil und einen Transistor einfügen.
+Heute haben den Code wieder eingefügt und den Arduino angeschlossen. Daraufhin wurde uns komischerweise ein Fehler beim kompillieren angezeigt. Daraufhin haben wir mehrere Zeilen geändert und sie teilweise kommentiert. Mit diesem simplen Code waren wir uns zu 100% sicher, dass kein Fehler mehr enthalten war. Als der Fehler daraufhin immernoch auftauchete haben wir Herrn Buhl um Hilfe gebeten. Nachdem wir dann alles kommentiert haben und der Fehler immernoch auftauchte, haben wir alles in einen neuen Sketch kopiert. Daraufhin hat der Code wieder funktioniert. Dann hatten wir unseren Aufbau vom Prinzip her mit Code fertig. Darauhin hat uns Herr Buhl vorgeschlagen eine Glühlampe anmstatt der LEDs einzubauen, weil diese besser dimmbar sind. Dann haben wir uns mit der Glühlampe beschäftigt und versucht, diese zum leuchten zu bringen. Dies hat aber nicht geklappt. Aufgrund der 6 Volt, die die Glühlampe braucht und der nur vorhandenen 5V des Arduinos muss man noch ein externes Netzteil und einen Transistor einfügen.
 
 ### 14. Stunde vom 01.11.2022<a name="vierzehn"></a>     
      
@@ -177,7 +179,7 @@ Heute ist die Stunde ausgefallen. Wir haben aber Zuhause recherchiert und über 
 
 ### 15. Stunde vom 03.11.2022<a name="fünfzehn"></a> 
 
-Heute haben wir die Glühlampe einegbaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
+Heute haben wir die Glühlampe eingebaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie ganz am Anfang bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
 
 <details>
        <summary>bild</summary>
