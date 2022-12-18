@@ -4,7 +4,7 @@
 1. [Stundenprotokolle](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
 2. [Einleitung](#Einleitung)
 3. [Entwicklung des Projekts](#Entwicklung)
-5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
+4. [Fazit](#Fazit)
 
 <h1>1. Einleitung</h1> <a name="Einleitung"></a>
 
@@ -42,7 +42,7 @@ Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und a
 Fritzing
 <h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
-<h1>2.1 >Vorgehen </h1>
+<h3>2.1 >Vorgehen </h3>
 
 Am Anfang hat Herr Buhl uns erstmal gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. 
 Also haben wir mit einfach ganz einfachen Code eine LED zum leuchten gebracht.
@@ -61,7 +61,7 @@ Außerdem haben wir mehr auf der Arduino-Seite gelesen. Denn sobald es spezielle
 Also haben wir am Ende unser Projekt durch nachdenken über Fehler und die Arduino-Seite beendet. Dies ging deutlich schneller und war erfolgreicher.
 
 
-<h2> 2.1.2 Die Idee</h2>
+<h3> 2.2 Die Idee</h3>
 
 Als Gruppe haben wir uns ja wie schon gesagt auf ein Projekt des physical Computings geeinigt.
 Dann haben wir uns einige Projekte angeguckt und haben uns überlegt, dass wir auch etrwas messen und steuern möchten.
@@ -71,15 +71,16 @@ Dies wollten wir auf einen Schuhkarton übertragen, weil wir nicht das Material 
 In den ersten beiden Einzelstunden und einer Doppelstunde haben wir uns überlegt, dass wir dieses Projekt entwickelt und uns überlegt, dass wir es umsetzen wollen.
 Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann in unseren Stundenprotokollen sichtbar.
 
- <h1> 2.2 softwaretechnische Umsetzung </h1>
+<h3> 2.3 Softwaretechnische Umsetzung </h3>
  
  
- <h2> 2.3 hardwaretechnische Umsetzung </h2>
-Das endprodukt
+<h3> 2.4 Hadwaretechnische Umsetzung </h3>
+ 
+<h3> 2.5 Das Endprodukt </h3>
 
-fazit:
 
-fazit 
+<h1>1. Fazit</h1> <a name="Fazit"></a>
+ 
 
 Wir ziwehen ein sehr positivwes Fazit, weil wir beide viel Spaß am Projekt hatten. Durch das beidseitige Interesse gab es auch immer eine sehr produktive Zusammenarbeit.
 Mit dem Endprojekt sind beide sehr zufrieden. Wir konnten leider den Zielwert nicht umsetzen, aber mussten einsehen, dass dies bei der Arbeit mit Helligkeit sehr schwierig wäre. 
@@ -95,7 +96,7 @@ haben wir uns entschieden auch im 2. Halbjahr wieder zusammenarbeiten. Ein gutes
 Da es bei speziell diesem Projekt keine großen Verbesserungen, welche auch für uns möglich sind, mehr gibt haben wir uns entschieden in eine ähnliche Richtung zu gehen.
 Für unser nächstes Projekt arbeiten wir wieder, aufgrund des Interesses und der Vorkentnisse, mit dem physical computing. Einen genaueren Plan, für das kommende Projekt, gibt es in unserem Ausblick.
 
-Nutzung im Alltag
+<h3> 3.1 Nutzung im Alltag </h3>
 
 Wir haben uns ein Physical Computing Projekt ausgesucht, weil uns, wie schon gesagt, der Bezug zur Realität interessiert. 
 Somit haben wir uns auch während der Projektentwickulung immer wieder überlegt, wofür man das Projekt im Alltag nutzen könnte.
@@ -108,7 +109,7 @@ Auch im Auto könnte man dies einbauen, weil somit das Unfallrisiko gemindert wi
 Des Weiteren blendet es den entgegenkommenden und vor einem fahrenden Verkehr nicht, weil das Licht von dort such wahrgenommen wird und das eigene somit geschwächt wird.
 Also kann man diese "Erfindung" invielen und auch wichtigen Bereichen des Alltags nutzen. Es dient nicht nur dem Aussehen, wie am Haus, sondern auch der Sicherheit, wie im Auto.
 
-Ausblick 
+<h3> 3.2 Ausblick </h3>
 
 Für die Zukunft haben wir uns überlegt, dass wir weiter mit dem Arduino arbeiten wollen, weil wir jetzt schon ein gutes Grundwissen dazu haben. 
 Wir wollen aber nicht mehr mit der Helligkeit, sondern mit der wärme arbeiten. 
