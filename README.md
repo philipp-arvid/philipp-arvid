@@ -179,7 +179,7 @@ Heute ist die Stunde ausgefallen. Wir haben aber Zuhause recherchiert und über 
 
 ### 15. Stunde vom 03.11.2022<a name="fünfzehn"></a> 
 
-Heute haben wir die Glühlampe eingebaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie ganz am Anfang bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photoioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig und müssen in der nächsten Stunde noch den Code abändern.
+Heute haben wir die Glühlampe eingebaut. Zuerst haben wir die Glühlampe in einem einfachen Aubau nur mit dem Arduino, dem externen Netzteil und einem Transitor aufgebaut und die Glühlampe zum Blinken gebracht. Dies haben wir, wie ganz am Anfang bei den LEDs gemacht, um den Grundaufbau zu verstehen. Dann haben wir das ganze mit dem Aufbau der Photodioden kombiniert und haben einen ganzen Aufbau mit Verbindung zwischen den Photoioden und der Glühlampe. Dadurch haben wir jetzt unseren endgültigen Aufbau fertig im Schuhkarton und müssen in der nächsten Stunde noch den Code anpassen.
 
 <details>
        <summary>bild</summary>
@@ -189,21 +189,21 @@ Heute haben wir die Glühlampe eingebaut. Zuerst haben wir die Glühlampe in ein
 
 ### 16. Stunde vom 08.11.2022<a name="sechzehn"></a>
 
-Heute aben wir uns um den code gekümmert, also dass dieser auch mit der neuen Glühlampe funktioniert. Dies hat leider natürlicherweise nicht mehr mit dem alten Code geklappt und deshalb müssen wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliche funktion wie mit dem LEDs hervorzubringen. Unser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. Wir könnten uns vorstellen, dass es an unserem Umgang im Code mit dem Transistor liegt. Wir haben in der Stunde auch noch recherchiert, wie man dieses Problem lösen könnte. Wir befürchtem, das wir nicht mehr die map funktion benutzen können und anstelle uns pid widmen müssen. 
+Heute haben wir uns um den Code gekümmert, dass dieser auch mit der neuen Glühlampe funktioniert. Dies hat leider natürlich nicht mehr mit dem alten Code geklappt und deshalb müssen wir einige dinge verändern. Leider haben wir es vorerst nicht geschafft eine ähnliches Resultat wie mit dem LEDs auf Anhieb hervorzubringen. Unser Problem ist, dass zwar Werte der Photodioden gemessen werden, die Glühlampe aber nicht reagiert. Woran das liegt, wissen wir nicht. Wir könnten uns vorstellen, dass es an unserem Umgang im Code mit dem Transistor liegt. Wir haben in der Stunde auch noch recherchiert, wie man dieses Problem lösen könnte. Wir befürchten, das wir nicht mehr die Map funktion benutzen können und anstelle uns PID widmen müssen. Herr Buhl hat uns schon vorher über PID aufgeklärt, doch da PID nicht ganz einfach ist und dies auch im Hinblick auf die Funktionalität unseres Projekes auch nicht notwendig ist, heben wir uns PID für ein komplexeres Projekt im zweiten Halbjahr auf.
 
 ### 17. Stunde vom 09.11.2022<a name="siebzehn"></a>
 
-In der heutigen Doppelstunde haben wir unser Projekt fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
+In der heutigen Doppelstunde haben wir unser Projekt soweit fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
 
 <details>
-       <summary>video</summary>
+       <summary>Video</summary>
 youtubelink:https://youtu.be/95P9wpTDUl0
      
  </details>     
  
  
 <details>
-       <summary>fertiger code</summary>
+       <summary>Code</summary>
      
 ```c
 const int transistor = 10;
@@ -244,7 +244,7 @@ Heute haben wir ein Video von unserem erreichten Projekt gemacht und angefangen 
 Auch Heute haben wir am Porjekt weitergeschrieben und weitere Fortschritte bei der Fertigstellung des Blogs und der Prjektseite gemacht.
 
 ### 20. Stunde vom 22.11.2022<a name="zwanzig"></a>
-DIese Stunde ist leider entfallen und wir haben ein paar kleinere Veränderungen am Blog von Zuhause durchgeführt.
+DIese Stunde ist leider entfallen.
 
 ### 21. Stunde vom 23.11.2022<a name="einundzwanzig"></a>
 Heute habem wir uns weiter GEdanken gemacht, wie man den Blog und die Projektseite moch anschaulicher machen könnte. Dafür haben wir bei einem blivk auf vorherige Projekte die Software Fritzing entdeckt. Dabei handelt es sich um ein Programm, bei welchem man (Schaltkreise) darstellen kann. Wir haben uns gedacht, dass wir auch im Anblick der Zeit dies noch sehr gut umsetztemn können, um unseren Aufbau noch besser zu zeigen. Außerdem können wir so vorherige kleinere Aufbauten im Laufe des Projekts so noch einmal visualisieren. Mit der Recherche über das Programm haben wir diese Stunde angefangen und auch arbeitsteilig weiter an der Projektseite gearbeitet. 
