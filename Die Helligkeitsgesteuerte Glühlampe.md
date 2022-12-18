@@ -1,19 +1,21 @@
 # Die helligkeitsgesteuerte Glühlampe
 ## Links
 
-1. [Blog](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
-2. [Das Spielkonzept](#Setup)
+1. [Stundenprotokolle](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
+2. [Einleitung](#Einleitung)
 3. [Erklärung des Codes](#Erklärung)
 5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
-Einleitung:
-Das Team
+
+<h1>1. Einleitung</h1> <a name="Einleitung"></a>
+
+<h3>1.1 Das Team</h3>
 
 Als Team haben sich Arvid Späth und Philipp Rinne zusammengeschlossen. Dies haben wir aufgrund vorheriger erfolgreicher Team-/Gruppenarbeiten gemacht. 
 Außerdem waren wir beide sehr interessiert an Informatik und waren uns einig, dass wir viel Arbeit in das Projekt stecken wollen. 
 Des Weiteren waren wir uns einig, dass wir ein Physical Computing Projekt durchführen wollen. 
 Also haben alle Vorstellungen zueinander gepasst und wir haben unser Projekt zusammen gestartet
 
-Der Arduino 
+ <h3>1.2 Der Arduino</h3>
 
 Das Projekt ... ist wie schon gesagt ein Physical Computing Projekt.
 Dies ist, unserer Meinung nach, besonders spnnend, weil man die Software und Hardware kombiniert. Wir hatten jeder besondere Interesse in einem Gebiet. 
@@ -24,7 +26,7 @@ Besonders gereitzt hat uns am Arduino, dass man die Theorie sozusagen mit der Pr
 Also kann man seine Idee auch in der Realität umsetzen und diese kann eventuell auch in der Zukunft genutzt werden. 
 Darüber haben wir uns im Fazit noch genauer Gedanken gemacht.
 
-genutzte programme 
+<h3>1.3 Genutzte Programme</h3>
 
 Arduino App
 Die Arduino App ist natürlich die Grundlage unseres Projekts. Über diese haben wir unser Projekt gesteuert. Wir haben mit einem Arduino UNO gearbeitet.
