@@ -148,11 +148,10 @@ Nun haben wir nur noch das Problem, dass wir es zwar geschafft haben Werte von L
 </li>	
 
 <li>		
-Anschließend haben wir noch ein mAximum und ein MInimum mit dem If() Operatoren formuliert 
+Anschließend haben wir noch ein mAximum und ein MInimum mit dem If() Operatoren formuliert Das dient dazu, dass die Glühlampe mit Sicherhet nicht mehr leuchtet, auch wenn die gemessenen Werte 800 übertreffen. Denn wenn man nicht diese Grenzen fprmulieren würde, dann ist die lmape nämlich einfach mit einer relativ mittleren Leutstärke aktiv, wenn licht+licht2 den Wert 800 übertreffen. Da dies nicht gewollt ist haben wir die Obergrenze und Untergrenze formuliert, bei der es genau anders rum ist: Wenn Lichtintnesitäten nidrieger als 150 gemessen werden, dann leuchtet sie auch einfach mittelstark. Man könnte vorschlagen, dass man einfach die Parameter bei der Map Funktionen nach oben und unten hin ausweitet, da man dann ja das Problem von zu hohen oder niedrigen Werten ja behobem hätte, doch dies macht das mappen insgesmat nur unpräziser und ungenauer, und dan diese Parameter auch nur selten über- oder unterschritten werden, haben wior uns für den Operator If() ebtntschieden. Als Allerletztes haben wir dann AnalogWrite an der Stelle 10 ( den Wert für die Variable des Transostors) einen Output, der den  Wert von aus annimmmt, welcher durch die eben gbexchriebene Wrise berechnet wird. Dadurch, dass das im Loop passiert, haben wir eine funktionstüchtigen Code geschrieben, der die Glühlampe abhängig von der Helligkeit steuer kann. 
+		
+</li>	
 	
-	
-	
-</li>		
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
  
 <h3> 2.5 Das Endprodukt </h3>
