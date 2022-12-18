@@ -1,4 +1,10 @@
+# Die helligkeitsgesteuerte Glühlampe
+## Links
 
+1. [Blog](https://github.com/ThorgeHamprecht/Informatik-Projekt-Nr.-1)
+2. [Das Spielkonzept](#Setup)
+3. [Erklärung des Codes](#Erklärung)
+5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 Einleitung:
 Das Team
 
