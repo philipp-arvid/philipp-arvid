@@ -141,12 +141,56 @@ void loop() {
 	
 <li>Nun haben wir nur noch das Problem, dass wir es zwar geschafft haben Werte von Lichtintensitäten auf einen Wert für den Ausgang, also für den Transistor zu übersetzen, aber, dass dies nicht die richtigen Werte sind. Denn wenn zum Beispiel eine hohe Lichtintensität gemessen wird, würde dies bedeuten, dass auch ein hoher Wert ausgegeben wird, da der Lichtintensitäten Wert ja zunächst nur auf die Parameter von 0 bis 255 übersetzt wird. Aber dies würde auch bedeuten, dass dadurch bei viel Licht, auch die Glühbirne stark leuchtet, da ja auch ein hoher Wert ausgegeben wird. Also haben wir uns überlegt, dass das Maximum von den Werten die "AnalogWrite" annehmen kann, also 255, von dem gemessen Wert, der durch die Map funktion übersetzt wurde, subtrahiert wird. Denn wir wollen ja genau das gegenteil: Wenn es Hell ist soll es Dunkel werden und nicht anders herum. Dies ist mit der eben beschreiben rechnung gegeben, denn wenn nun wieder zum Beispiel ein Wert von 800 gemessen wird, wird er zunächst auf einen Wert von 255 übersetzt und dann wird das Maximum, also 255 mit dem gemessen Wert, also 255 subtrahiert. Dadurch erhalten wir bei einer hohen Intensität, eine Glühlampe, die aus ist.  </li>	
 
-<li>Anschließend haben wir noch ein Maximum und ein Minimum mit dem If() Operatoren formuliert. Das dient dazu, dass die Glühlampe mit Sicherhet nicht mehr leuchtet, auch wenn die gemessenen Werte 800 übertreffen. Denn wenn man nicht diese Grenzen formulieren würde, dann ist die Glühlampe nämlich einfach mit einer relativ mittleren Leuchtkraft aktiv, wenn "licht+licht2" den Wert 800 übertreffen. Da dies nicht von uns gewollt ist, haben wir die Obergrenze und Untergrenze formuliert, bei der es genau anders herum ist: Wenn Lichtintensitäten von niedriger als 150 gemessen werden, dann leuchtet sie auch mittelstark. Man könnte vorschlagen, dass man einfach die Parameter bei der Map Funktionen nach oben und unten hin ausweitet, da man dann ja das Problem von zu hohen oder niedrigen Werten ja dann behoben hätte, doch dies macht das "mappen" insgesamt nur unpräziser und ungenauer, wenn die Parameter zu groß sind, und da diese Parameter auch nur selten über- oder unterschritten werden, haben wir uns für den Operator If() entschieden. Hierbei haben wir das so geschrieben, dass wenn ein Wert unter 150 gemessen wird, der Output einen Wert von 255 (also dem Maximum) ausgibt, und wenn ein Wert über 800 gemessen, ein wert von 0 ausgesendet wird( also geht die Glühlampe aus). Als Allerletztes haben wir dann "AnalogWrite" an der Stelle 10 ( den Wert für die Variable des Transistors) einen Output, der den  Wert von der Variable "aus" annimmmt, welcher durch die eben beschriebene Weise berechnet wird. Dadurch, dass das im Loop passiert, haben wir eine funktionstüchtigen Code geschrieben, der die Glühlampe abhängig von der Helligkeit steuer kann. </li>	
+<li>Anschließend haben wir noch ein Maximum und ein Minimum mit dem If() Operatoren formuliert. Das dient dazu, dass die Glühlampe mit Sicherhet nicht mehr leuchtet, auch wenn die gemessenen Werte 800 übertreffen. Denn wenn man nicht diese Grenzen formulieren würde, dann ist die Glühlampe nämlich einfach mit einer relativ mittleren Leuchtkraft aktiv, wenn "licht+licht2" den Wert 800 übertreffen. Da dies nicht von uns gewollt ist, haben wir die Obergrenze und Untergrenze formuliert, bei der es genau anders herum ist: Wenn Lichtintensitäten von niedriger als 150 gemessen werden, dann leuchtet sie auch mittelstark. Man könnte vorschlagen, dass man einfach die Parameter bei der Map Funktionen nach oben und unten hin ausweitet, da man dann ja das Problem von zu hohen oder niedrigen Werten ja dann behoben hätte, doch dies macht das "mappen" insgesamt nur unpräziser und ungenauer, wenn die Parameter zu groß sind, und da diese Parameter auch nur selten über- oder unterschritten werden, haben wir uns für den Operator If() entschieden. Hierbei haben wir das so geschrieben, dass wenn ein Wert unter 150 gemessen wird, der Output einen Wert von 255 (also dem Maximum) ausgibt, und wenn ein Wert über 800 gemessen, ein wert von 0 ausgesendet wird( also geht die Glühlampe aus). Als Allerletztes haben wir dann "AnalogWrite" an der Stelle 10 ( den Wert für die Variable des Transistors) einen Output, der den  Wert von der Variable "aus" annimmmt, welcher durch die eben beschriebene Weise berechnet wird. Dadurch, dass das im Loop passiert, haben wir eine funktionstüchtigen Code geschrieben, der die Glühlampe abhängig von der Helligkeit steuer kann. </li>
+	
+<details>
+	<summary>fertiger Code</summary>
+	
+```c
+	
+const int transistor = 10;
+int aus;
+int licht;
+int licht2;
+
+void setup() {
+	
+  pinMode (10, OUTPUT);
+	
+  Serial.begin(9600);
+	
+}
+	
+void loop() {
+
+  licht= analogRead(0);
+  licht2= analogRead(1);
+  delay(20);
+
+  Serial.println(licht + licht2);
+
+         aus = 255-map(licht + licht2, 150, 800, 0, 255);
+	
+         if (licht + licht2 > 800)
+         aus=0;
+         if (licht + licht2 < 150)
+         aus=255;
+
+  analogWrite(transistor, aus);
+
+			  			   
+ }		   
+			   
+				   
+```
+	
+</details>	
+	
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
  
 <h3> 2.5 Das Endprodukt </h3>
-Youtube Link: 
+Youtube Link: https://youtu.be/EAZcYoLfER0
 
 <h1>3. Fazit</h1> <a name="Fazit"></a>
  
