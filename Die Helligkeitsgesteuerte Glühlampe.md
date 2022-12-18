@@ -139,7 +139,7 @@ void loop() {
 </details>
  
 	<li>
-	
+In Diesem AUsschnitt haben wir die Verwertung der Lichtintensitäten zu einem Wert für die Glühlampe programmiert. Zu beginn bezeichnen wir den Transistor mithilfe einer Variable und halten die Variable konstant am Wert 10 mit "const". Als nächstes legen wir fest, dass der 10. Pin als Output dient, denn dort ist nämlich der Transistor angeschlossen, was wir vorher mit der Variable Transistor entspricht 10 veranschaulicht haben. Als Nächstes haben wir den Poerator Map verwendet mit dem wir die gemessenen Lichtintensitäten in einen Ausgangswert übersetzten. Dafür haben wir zuerst die Variable aus formuliert, die den Ausgangswert entspricht und daher aus dem Map Operator hervorgeht. Bei der Map Funktion setzt man Parameter für den zu mappenden Wert ein, also in diesem Fall 150 als niedrigster möglicher gemessener Wert und 800 als höchster. Vor diesen PArametern setzt man den Wert der gemappt werden soll ,also in diesem Fall Licht+Lciht2. Als nächstes setzt man Werte ein auf die, ie vorherigen in den Parametern in Kontext gesetzte Wette, überstzt werden sollen. 
 	
 		
 	</li>	
