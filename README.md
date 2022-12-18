@@ -65,16 +65,16 @@
   
  ### 1. Stunde vom 16.08.2022<a name="eins"></a> 
    
- In unserer ersten informatikstunde hat herr buhl uns unsere projektaufgabe vorgestellt, und github gezeigt. Wir haben einen Github Account angelegt und uns einige projekte von ehemaligen Schülern angesehen.Diese gingen in verschiedene richtungen und wir konnten uns auf github einen ersten überblick über 
- unsere optionen verschaffen. Wir haben noch überleht, ob wir ein Computerspiel programmieren wollen, oder vielleicht doch in Richutng physical Computing gehen wollen. 
+ In unserer ersten Informatikstunde hat Herr Buhl uns unsere Projektaufgabe vorgestellt und github gezeigt. Wir haben einen github Account angelegt und uns einige Projekte von ehemaligen Schülern angesehen. Diese gingen in verschiedene Richtungen und wir konnten uns auf github einen ersten Überblick über 
+ unsere Optionen verschaffen. Wir haben noch überlegt, ob wir ein Computerspiel programmieren wollen, oder vielleicht doch in Richutng physical Computing gehen wollen. 
 
  ### 2. Stunde vom 17.08.2022<a name="zwei"></a> 
 
 In den heutigen Informatikstunden haben wir uns nochmal näher mit den früheren Projekten beschäftigt. 
 Wir haben uns die verschiedenen Möglichkeiten alle ausführlich angeguckt und haben entschieden, dass wir etwas in Richtung Physical Computing machen wollen. 
 Außerdem haben wir uns mit den verschiedenen Arduinos beschäftigt und überlegen uns nun welches Projekt genau wir machen wollen. 
-Es gibt schon erste Ideen wie, dass man wenn ein Mensch im Raum ist die Lichthelligkeit kostant hält.
-Die Helligkeit im raum soll gemessen werden und dann wird die Helligkeit einer Lampe gesteuert, sodass es im Raum immer gleich hell ist.
+Es gibt schon erste Ideen wie zum Beispiel, dass man die Helligkeit in einem Raum mithilfe vom Arduino konstant hält.
+Die Helligkeit im Raum soll gemessen werden und dann wird die Helligkeit einer Lampe gesteuert, sodass es im Raum immer gleich hell ist.
 Bei dieser Idee wird die Anweisung durch Bewegungs und Lichtsensoren gesteuert.
 
  ### 3. Stunde vom 23.08.2022<a name="drei"></a>
