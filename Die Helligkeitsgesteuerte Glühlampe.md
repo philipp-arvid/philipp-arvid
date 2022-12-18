@@ -42,7 +42,7 @@ Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und a
 Fritzing
 <h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
-<h3>2.1 >Vorgehen </h3>
+<h3>2.1 Vorgehen </h3>
 
 Am Anfang hat Herr Buhl uns erstmal gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. 
 Also haben wir mit einfach ganz einfachen Code eine LED zum leuchten gebracht.
@@ -79,7 +79,7 @@ Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann
 <h3> 2.5 Das Endprodukt </h3>
 
 
-<h1>1. Fazit</h1> <a name="Fazit"></a>
+<h1>3. Fazit</h1> <a name="Fazit"></a>
  
 
 Wir ziwehen ein sehr positivwes Fazit, weil wir beide viel Spaß am Projekt hatten. Durch das beidseitige Interesse gab es auch immer eine sehr produktive Zusammenarbeit.
