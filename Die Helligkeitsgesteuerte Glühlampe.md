@@ -78,16 +78,25 @@ Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann
 	<summary>Auschnitt des Codes</summary>
 	
 ```c
-int rotarySchrittwert = 5; 
-
-void loop() {
-  if ((!digitalRead(PinSW))) {        //wenn der Knopf des Encoders gedrückt wird (Strom am PinSW anliegt), ist der Schrittwert = 1
-    rotarySchrittwert = 1;
-  }
-  else{                               //andernfalls beträgt der Schrittwert = 5
-    rotarySchrittwert = 5;
-  }
+int licht;
+int licht2;
+	
+	
+void setup() {
+	
+	  Serial.begin(9600);
 }
+	
+void loop() {
+
+  licht= analogRead(0);
+  licht2= analogRead(1);
+  delay(20);
+
+  Serial.println(licht + licht2);
+
+}	
+	
 ```
 	
 </details>
