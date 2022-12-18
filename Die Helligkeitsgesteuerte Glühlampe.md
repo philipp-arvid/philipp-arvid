@@ -3,7 +3,7 @@
 
 1. [Stundenprotokolle](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
 2. [Einleitung](#Einleitung)
-3. [Erklärung des Codes](#Erklärung)
+3. [Entwicklung des Projekts](#Entwicklung)
 5. [Spiel - Snap! Cummunity Site](https://snap.berkeley.edu/project?user=faiture&project=2D%20Puzzle%20Game)
 
 <h1>1. Einleitung</h1> <a name="Einleitung"></a>
@@ -40,8 +40,9 @@ Dies war sehr passend, weil Github ein Dienst zurVersionsverwaltung zur Software
 Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
 
 Fritzing
+<h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
-Vorgehen 
+<h1>2.1 >Vorgehen </h1>
 
 Am Anfang hat Herr Buhl uns erstmal gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. 
 Also haben wir mit einfach ganz einfachen Code eine LED zum leuchten gebracht.
@@ -59,9 +60,8 @@ Mit der Zeit haben wir aber gemerkt, dass wir uns schon so gut auskennen, dass w
 Außerdem haben wir mehr auf der Arduino-Seite gelesen. Denn sobald es spezieller wird, gibt es weniger verständliche Videos. 
 Also haben wir am Ende unser Projekt durch nachdenken über Fehler und die Arduino-Seite beendet. Dies ging deutlich schneller und war erfolgreicher.
 
-Entwicklung des projekts
 
-Die Idee
+<h2> 2.1.2 Die Idee</h2>
 
 Als Gruppe haben wir uns ja wie schon gesagt auf ein Projekt des physical Computings geeinigt.
 Dann haben wir uns einige Projekte angeguckt und haben uns überlegt, dass wir auch etrwas messen und steuern möchten.
@@ -71,9 +71,10 @@ Dies wollten wir auf einen Schuhkarton übertragen, weil wir nicht das Material 
 In den ersten beiden Einzelstunden und einer Doppelstunde haben wir uns überlegt, dass wir dieses Projekt entwickelt und uns überlegt, dass wir es umsetzen wollen.
 Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann in unseren Stundenprotokollen sichtbar.
 
-
-softwaretechnische Umsetzung 
-hardwaretechnishce Umsetzung 
+ <h1> 2.2 softwaretechnische Umsetzung </h1>
+ 
+ 
+ <h2> 2.3 hardwaretechnische Umsetzung </h2>
 Das endprodukt
 
 fazit:
