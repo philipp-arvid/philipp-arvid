@@ -138,9 +138,11 @@ void loop() {
 	
 </details>
  
+	<li>
 	
 	
-	
+		
+	</li>	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
  
 <h3> 2.5 Das Endprodukt </h3>
