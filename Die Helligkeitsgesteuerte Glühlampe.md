@@ -72,7 +72,25 @@ In den ersten beiden Einzelstunden und einer Doppelstunde haben wir uns überleg
 Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann in unseren Stundenprotokollen sichtbar.
 
 <h3> 2.3 Softwaretechnische Umsetzung </h3>
+ Die Aufgabe des Software ist es, die gemessenen Daten der Photodioden zu kombinieren und dann die Glühlampe in Abhängigkeit dieser Daten zu steuern. Dabei übernimmt offensichtlich der Arduino diese Aufgabe. 
  
+<details>
+	<summary>Auschnitt des Codes</summary>
+	
+```c
+int rotarySchrittwert = 5; 
+
+void loop() {
+  if ((!digitalRead(PinSW))) {        //wenn der Knopf des Encoders gedrückt wird (Strom am PinSW anliegt), ist der Schrittwert = 1
+    rotarySchrittwert = 1;
+  }
+  else{                               //andernfalls beträgt der Schrittwert = 5
+    rotarySchrittwert = 5;
+  }
+}
+```
+	
+</details>
  
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
  
