@@ -1,4 +1,4 @@
-# Informatikprojekt: X
+# Informatikprojekt: Die helligkeitsgesteuerte Glühlampe
 
 ### Stundenprotokolle<a name="einf"></a>
 
