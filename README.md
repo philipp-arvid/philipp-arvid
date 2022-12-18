@@ -193,11 +193,11 @@ Heute haben wir uns um den Code gekümmert, dass dieser auch mit der neuen Glüh
 
 ### 17. Stunde vom 09.11.2022<a name="siebzehn"></a>
 
-In der heutigen Doppelstunde haben wir unser Projekt soweit fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter dem Minimum der Map-Funktion die maximale Helligkeit hat. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir gesbgat haben, dass der Transistor feswt auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map-Funktion natürlich zur Variable und durch diese Veränderungen, ist die Map-Funktion auch wieder Problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mkit der Glühlampe.
+In der heutigen Doppelstunde haben wir unser Projekt soweit fertiggestellt. Wir haben die letzten Fehler behoben. Der erste Fehler war, dass die LED bei zu niedrigen Werten der Helligkeit nicht auf der maximalen Helligkeit ist, sondern manchmal ausgeht. Dann haben wir die If-Funktion genutzt und gesagt, dass die Glühlampe bei einem Wert unter einem definierten Minimum vom gemessenen Licht die maximale Helligkeit annimmt. Das zweite und größte Fehler war, dass wir gesagt hatten, dass der Transistor den Ausgang 10 benutzt. Wir haben aber gesagt, dass dieser Variabel ist. Also kann sich der Ausgang verändern. Dies war natürlich falsch und wir haben es geändert, indem wir geschrieben haben, dass der Transistor fest auf 10 bleibt. Dazu haben wir dann eine Variable genutzt, die den Ausgang 10 steuert. Durch dies in Kombination, geht der Strom immer zum Transistor, aber wird durch die Variable variiert. Dann schreibt man die Map Funktion natürlich zur Variable und durch diese Veränderungen ist die Map-Funktion auch wieder problemlos nutzbar. Durch diese Veränderungen funktioniert unser Projekt jetzt auch mit der Glühlampe.
 
 <details>
        <summary>Video</summary>
-youtubelink:https://youtu.be/95P9wpTDUl0
+youtubelink:https://youtu.be/EAZcYoLfER0
      
  </details>     
  
@@ -238,29 +238,41 @@ void loop() {
  </details> 
      
 ### 18. Stunde vom 15.11.2022<a name="achtzehn"></a>
-Heute haben wir ein Video von unserem erreichten Projekt gemacht und angefangen an unserer Projektseite zu arbeiten. Dafür haben wir uns eine Gliederung überlegt, die für uinser Projekt passend ist und einen Plan gemacht, wie wir die benötigten Texte aufteilen. Zudem haben wir festgestellt, dass wir ein schönes Layout für unseren Blog haben wollen und haben uns vorgenommen an diesem noch weiter zu arbeiten und die Texte auf Fehler zu korriegieren. 
+     
+Heute haben wir ein Video von unserem erreichten Projekt gemacht und angefangen an unserer Projektseite zu arbeiten. Dafür haben wir uns eine Gliederung überlegt, die für unser Projekt passend ist und einen Plan gemacht, wie wir die benötigten Texte aufteilen. Zudem haben wir festgestellt, dass wir ein schönes Layout für unseren Blog haben wollen und haben uns vorgenommen an diesem noch weiter zu arbeiten unsere ersten provisorischen Texte auf Fehler zu korrigieren. 
 
 ### 19. Stunde vom 16.11.2022<a name="neunzehn"></a>
-Auch Heute haben wir am Porjekt weitergeschrieben und weitere Fortschritte bei der Fertigstellung des Blogs und der Prjektseite gemacht.
+     
+Auch Heute haben wir am Projekt weitergeschrieben und weitere Fortschritte bei der Fertigstellung des Blogs und der Projektseite gemacht.
 
 ### 20. Stunde vom 22.11.2022<a name="zwanzig"></a>
+     
 DIese Stunde ist leider entfallen.
 
 ### 21. Stunde vom 23.11.2022<a name="einundzwanzig"></a>
-Heute habem wir uns weiter GEdanken gemacht, wie man den Blog und die Projektseite moch anschaulicher machen könnte. Dafür haben wir bei einem blivk auf vorherige Projekte die Software Fritzing entdeckt. Dabei handelt es sich um ein Programm, bei welchem man (Schaltkreise) darstellen kann. Wir haben uns gedacht, dass wir auch im Anblick der Zeit dies noch sehr gut umsetztemn können, um unseren Aufbau noch besser zu zeigen. Außerdem können wir so vorherige kleinere Aufbauten im Laufe des Projekts so noch einmal visualisieren. Mit der Recherche über das Programm haben wir diese Stunde angefangen und auch arbeitsteilig weiter an der Projektseite gearbeitet. 
+     
+Heute habem wir uns weiter Gedanken gemacht, wie man den Blog und die Projektseite moch anschaulicher machen könnte. Dafür haben wir bei einem Blik auf vorherige Projekte die Software Fritzing entdeckt. Dabei handelt es sich um ein Programm, bei welchem man Schaltkreise darstellen kann. Wir haben uns gedacht, dass wir auch im Anblick der Zeit dies noch sehr gut umsetztemn können, um unseren Aufbau noch besser zu zeigen. Außerdem können wir so vorherige kleinere Aufbauten im Laufe des Projekts so noch einmal visualisieren. Mit der Recherche über das Programm haben wir diese Stunde angefangen und auch arbeitsteilig weiter an der Projektseite gearbeitet. 
 
-### 22. Stunde vom 29.11.2022<a name="zweiundzwanzig"></a>     
-Diese Stunde ist leider entfallen und wir haben mal wieder ein wenig von Zuahsue aus an unseren Github Seiten weitergearbeitet.   
+### 22. Stunde vom 29.11.2022<a name="zweiundzwanzig"></a>
      
-### 23. Stunde vom 30.11.2022<a name="dreiundzwanzig"></a>    
-In dieser Stunde haben wir die Tabelle im Blog fertiggestellt, welches den Blog deutlich übersichtlicher und schöner macht.ANsosnten haben wir einfach Heute , wie zuvor.  
+Diese Stunde ist leider entfallen. 
      
-### 24. Stunde vom 06.12.2022<a name="vierundzwanzig"></a>      
+### 23. Stunde vom 30.11.2022<a name="dreiundzwanzig"></a>
+     
+In dieser Stunde haben wir die Tabelle nach etwas Recherche über die Basics bei Github im Blog fertiggestellt, welches den Blog deutlich übersichtlicher und schöner macht, mit der man jetzt auch direkt an eine beliebige Stunde springen kann. 
+     
+### 24. Stunde vom 06.12.2022<a name="vierundzwanzig"></a>
+     
 Heute haben wir einerseits über Fritzing gelesen und ein Video geschaut und weiter am Blog und an der Projektseite gearbeitet. Auch haben wir nach der Schule die Fritzing Software heute schonmal heruntergeladne und die ersten einfachen Stromkreise dargestellt.  
      
-### 25. Stunde vom 07.12.2022<a name="fünfundzwanzig"></a>      
+### 25. Stunde vom 07.12.2022<a name="fünfundzwanzig"></a>
+     
 Heute haben wir wieder weiter an der Projektseite und am Blog gearbeitet und haben uns auch schonmal überlegt, was wir im 2. Halbjahr machen wollen. Durch Gespräche mit Herr Buhl hatten wir schon eine Vorstellung: Wieder eine Glühlampe aber diemsal nicht mit dem Fokus auf die Helligkeit sondern auf die Temepratur. 
 
-### 26. Stunde vom 13.12.2022<a name="sechsundzwanzig"></a> 
-
+### 26. Stunde vom 13.12.2022<a name="sechsundzwanzig"></a>
+     
+Heute haben wir die Texte nochmals kontrolliert und uns schonmal Gedanken gemacht, welches Projekt wir im zweiten Halbjahr machen wollen. Wir sind uns sicher, dass wir nochmal ein physical Computing Projekt machen wollen. Auch PID haben wir noch im Kopf und wollen aufjedenfall damit ein Projekt umsetzten.  
+     
 ### 27. Stunde vom 14.12.2022<a name="siebenundzwanzig"></a> 
+     
+Heute haben wir neben kleinen Verbesserungen eine relativ konkrete Richutng für unser nächstes Projekt überlget. Es soll wieder um eine Glühlampe gehen, doch nun soll die Wärme in einem Raum, möglicherweise einen mit Alufolie verdichteter Schuhkarton diesmal konstant gehalten werden. Denn durch die Glühlampe wird auch Wärme abgegeben, die unsere Heizung in einem Raum simuliert. Mit Wärmesensoren soll gemsesen werden und ein "Fenster" oder einer "Tür" kann dann geöffnet werden, auf die mithilfe des Arduinos dann die Glühlampe reagiert.
