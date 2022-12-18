@@ -49,12 +49,17 @@
     <td><a href=#fünfundzwanzig>25. Stunde am 07.12.2022</a></td>
       
 </tr>
-<tr>
-     
-    <td><a href=#sechsundzwanzig>26. Stunde am 13.12.2022</a></td>
+ <tr>
+   <td><a href=#sechsundzwanzig>26. Stunde am 13.12.2022</a></td>
     <td><a href=#siebenundzwanzig>27. Stunde am 14.12.2022</a></td>
-     <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+      
 </tr>
+     
+  
+
      
  </table>
   
