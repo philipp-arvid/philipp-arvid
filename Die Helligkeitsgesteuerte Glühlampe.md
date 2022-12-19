@@ -188,6 +188,8 @@ void loop() {
 	
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
+Das Herzstück des Projekts ist die Glühlampe. Diese haben wir aus dem Inventar der Schule bekommen. 
+Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dies war also die ... Diese haben wir dann an die Steckdose angeschlossen und konnten diese in den Stromkreis einbinden.
  
 <h3> 2.5 Das Endprodukt </h3>
 Youtube Link: https://youtu.be/EAZcYoLfER0
