@@ -188,8 +188,15 @@ void loop() {
 	
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
-Das Herzstück des Projekts ist die Glühlampe. Diese haben wir aus dem Inventar der Schule bekommen. 
-Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dies war also die ... Diese haben wir dann an die Steckdose angeschlossen und konnten diese in den Stromkreis einbinden.
+	Alle genutzten Teile konnten uns von der Schule gestellt werden.
+- Das Herzstück des Projekts ist die Glühlampe. Diese ersetzte die zu Anfang genutzten LEDs, weil wir durch die Glühlampe mehr Licht bekamen, welches stärker reguliert werden kann und besser den Raum ausleuchtet.
+- Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dafür haben wir ein externes Netzteil genutzt Dieses haben wir dann an die Steckdose angeschlossen und konnten es in den Stromkreis einbinden. Dadurch hat die Glühlampe genügend Strom bekommen um zu leuchten.
+- Das, was die Glühlampe seuert
+- Dazu haben wir dann die Photoioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
+- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Dieser gibt die Messungen an den PC weiter, welche man auch im Video sehen kann.Daraufhin gibt der PC anweisungen an den Arduino, welcher diese dann weiterleitet oder auführt.
+- Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten, und diesen nicht zur verfügung hatten. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.
+	
+	
  
 <h3> 2.5 Das Endprodukt </h3>
 Youtube Link: https://youtu.be/EAZcYoLfER0
@@ -197,7 +204,7 @@ Youtube Link: https://youtu.be/EAZcYoLfER0
 <h1>3. Fazit</h1> <a name="Fazit"></a>
  
 
-Wir ziwehen ein sehr positivwes Fazit, weil wir beide viel Spaß am Projekt hatten. Durch das beidseitige Interesse gab es auch immer eine sehr produktive Zusammenarbeit.
+Wir ziehen ein sehr positivwes Fazit, weil wir beide viel Spaß am Projekt hatten. Durch das beidseitige Interesse gab es auch immer eine sehr produktive Zusammenarbeit.
 Mit dem Endprojekt sind beide sehr zufrieden. Wir konnten leider den Zielwert nicht umsetzen, aber mussten einsehen, dass dies bei der Arbeit mit Helligkeit sehr schwierig wäre. 
 Zu beginn war es eine sehr effektive gemeinsame Pklanung, welche wir dann mit der Zeit gut umsetzen konnten.
 Aufgrund unserer guten Arbeit waren wir früher fertig und konnten unser Projekt auf Rat von Herrn Buhl noch durch eine Glühlampe verbessern.
