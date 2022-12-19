@@ -15,8 +15,8 @@ Als Team haben sich Arvid Späth und Philipp Rinne zusammengeschlossen. Dies hab
  <h3>1.2 Der Arduino</h3>
 
 Das Projekt "Helligkeitsgesteuerte Glühlampe" ist wie schon gesagt ein Physical-Computing Projekt.
-Dies ist, unserer Meinung nach, besonders spannend, weil man die Software und Hardware kombiniert. Wir hatten jeder besonderse Interesse in einem Gebiet. 
-Arvid interessiert besonders die Software und Philipp die Hardware. 
+Dies ist, unserer Meinung nach, besonders spannend, weil man Software und Hardware kombiniert. Wir hatten jeder besonderse Interesse in einem Gebiet. 
+Arvid interessiert besonders Software und Philipp die Hardware. 
 Dies passte gut zusammen, da wir beide uns besonders in unserem Bereich informierten und dann dem anderen jeweils die Ausführungen und den Aufbau erklären konnten.
 Dies klappte sehr gut, weil wir den anderen Bereich, welcher dann vom Partner erklärt wurde, deutlich schneller verstanden. 
 Besonders gereizt hat uns am Arduino, dass man die Theorie sozusagen mit der Praxis verbinden kann.
