@@ -1,6 +1,6 @@
 # Informatikprojekt: Die helligkeitsgesteuerte Glühlampe
 
-Zurück zur [Projektseite](https://github.com/philipp-arvid/philipp-arvid/blob/main/Die%20Helligkeitsgesteuerte%20Gl%C3%BChlampe.md)
+Zurück zur [Projektseite](https://github.com/philipp-arvid/philipp-arvid/blob/main/Die%20helligkeitsgesteuerte%20Gl%C3%BChlampe.md)
 
 ### Stundenprotokolle<a name="einf"></a>
 
