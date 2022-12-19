@@ -272,11 +272,11 @@ Heute haben wir einerseits über Fritzing gelesen und ein Video geschaut und and
      
 ### 25. Stunde vom 07.12.2022<a name="fünfundzwanzig"></a>
      
-Heute haben wir wieder weiter an der Projektseite und am Blog gearbeitet und haben uns auch schon mal überlegt, was wir im 2. Halbjahr machen wollen. Durch Gespräche mit Herr Buhl hatten wir schon eine Vorstellung: Wir wollen wieder mit einer Glühlampe arbeiten, aber diesmal liegt der Fokus nicht auf der Helligkeit sondern auf der Temeperatur. 
+Heute haben wir wieder weiter an der Projektseite und am Blog gearbeitet und haben uns auch schon mal überlegt, was wir im 2. Halbjahr machen wollen. Durch Gespräche mit Herr Buhl hatten wir schon eine Vorstellung: Wir wollen wieder mit einer Glühlampe arbeiten, aber diesmal liegt der Fokus nicht auf der Helligkeit sondern auf der Temeperatur. Des Weiteren haben wir es heute (Zuhause) geschafft unseren Aufbau digital in der Fritzing Software darzustellen und können dies nun optimal zu unserer Projektseite hinzufügen. 
 
 ### 26. Stunde vom 13.12.2022<a name="sechsundzwanzig"></a>
      
-Heute haben wir die Texte nochmals kontrolliert und uns schon mal Gedanken gemacht, welches Projekt wir im zweiten Halbjahr machen wollen. Wir sind uns sicher, dass wir nochmal ein Physical-Computing Projekt machen wollen. Auch PID haben wir noch im Kopf und wollen dies auf jeden Fall in unser Projekt einbinden.  Außerdem haben wir heute den Blog bis auf die morgige Doppelstunde komplett fertiggestellt.
+Heute haben wir die Texte nochmals kontrolliert und uns wieder schon mal Gedanken gemacht, welches Projekt wir im zweiten Halbjahr machen wollen. Wir sind uns sicher, dass wir nochmal ein Physical-Computing Projekt machen wollen. Auch PID haben wir noch im Kopf und wollen dies auf jeden Fall in unser Projekt einbinden.  Außerdem haben wir heute den Blog bis auf die morgige Doppelstunde komplett fertiggestellt.
      
 ### 27. Stunde vom 14.12.2022<a name="siebenundzwanzig"></a> 
      
