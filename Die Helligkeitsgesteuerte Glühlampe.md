@@ -25,20 +25,20 @@ Darüber haben wir uns im Fazit noch genauer Gedanken gemacht.
 
 <h3>1.3 Genutzte Programme</h3>
 
-Arduino App
+Arduino IDE
 
-Die Arduino-App ist natürlich die Grundlage unseres Projekts. Über diese haben wir unser Projekt gesteuert. Wir haben mit einem Arduino UNO gearbeitet.
-Über die Aruino-App haben wir den Arduino gesteuert, welcher dann durch die Anweisungen die Helligkeit der Glühbirne steuert.
-Für dies Programm haben uns am Anfang Videos geholfen. Am Ende war es aber besonders die Website der App, welche uns geholfen hat. 
-Bei dieser gab es die allgemeinen Erklärungen, welche wir dann auf unser Projekt gut übertragen konnten
+Das Arduino Programm ist natürlich die Grundlage unseres Projekts mit der wir den Arduino UNO gesteuert haben.
+Im Programm haben wir unseren Code entwickelt, den wir anschließend auf den Arduino hochgeladen haben.
 
 Github
 
 Github wurde als programm für die Stundenprotokolle und Projektseite genutzt. 
-Dies war sehr passend, weil Github ein Dienst zurVersionsverwaltung zur Software-Entwicklu8ng ist. 
-Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
+Dies war sehr passend, weil Github ein Dienst zur Versionsverwaltung zur Software-Entwicklung ist. 
+Also konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
 
 Fritzing
+
+Fritzing ist ein Programm mit dem man die Steckverbindungen unserer Hardware digital und übersichtlich darstellen kann. 
 
 <h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
