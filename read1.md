@@ -40,29 +40,16 @@ Fritzing ist eine Software mit der man die Hardware, also unsere Steckverbindung
 <h3>2.1 Vorgehen </h3>
 
 Am Anfang hat Herr Buhl uns  gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. Also haben wir mit einem ganz einfachen, vorinstallierten Code eine LED zum Leuchten gebracht. Danach haben wir sie zum Blinken genbracht und daraufhin haben wir mehrere LEDs eingebaut. 
-Also haben wir erst die einfachsten Grundlagen gelernt und sie dann in das Projekt eingebaut. Am Anfang haben wir es dann natürlich weiterentwickelt.
-Dieses Vorgehen haben wir als sehr gut erachtet und somit bei den weiteren Versuchen auch umgesetzt. Dies gilt für die Photodiode und auch die Glühlampe. 
-Also haben wir  die Photodiode erst Werte aufnehmen lassen und gesehen. Ab dann wussten wir, wie sie funktioniert und haben sie mit der LED kombiniert. 
-Die Glühlampe haben wir erst ohne Arduino angemacht, um die Grundlagen wie Stromkreis, usw. wieder aufzufrischen.
-Dann haben wir die Glühlampe mit dem Arduino gesteuert und zuletzt dann mit den Photodioden kombiniert.
-Außerdem hatten wir eine sehr gute Teamarbeit aufgrund der unterschiedlich stärkeren Interessen. 
-Da wir aber auch am anderen Thema interessiert waren und die vorherigen Schritte auch erklärt bekommen haben, 
-konnten wir bei Problemen dem anderen sehr effektiv helfen. Da es immer mal Probleme gab, haben wir uns beide mit beiden Themen viel beschäftigt und sie verstanden.
-Am Anfang haben wir viel versucht mit Videos zu lernen und de Sachen zu verstehen.
-Mit der Zeit haben wir aber gemerkt, dass wir uns schon so gut auskennen, dass wir die meisten Fehler oder auch einige Pläne durch logisches Denken umsetzen können.
-Außerdem haben wir mehr auf der Arduino-Website gelesen. Denn sobald es spezieller wird, gibt es weniger verständliche Videos. 
-Also haben wir am Ende unser Projekt durch nachdenken über Fehler und die Arduino-Website beendet. Dies ging deutlich schneller und war erfolgreicher.
+Also haben wir erst die Grundlagen gelernt, um dann von dort, Schritt für Schritt mehr Wissen zu erarbeiten. Dieses Vorgehen haben wir haben wir durch das Projekt beibehalten, also haben wir zum Beispiel die Photodiode erst Werte aufnehmen lassen und diese im seriellen Monitor uns anzeigen lassen und erst anschließend eine LED im Aufbau hinzugefügt. Erst wenn wir verstehen, wie ein Teil unseres Gesamtprojekts funktioniert, gehen wir einen Schritt weiter. So haben wir auch später, im Verlauf des Projektes die Glühlampe erst ohne Arduino angebracht und zum leuchten gebracht, um die Grundlagen wie Stromkreis, usw. wieder aufzufrischen. Dann haben wir die Glühlampe mit dem Arduino in Kombination mit dem Transistor gesteuert und zuletzt dann mit den Photodioden vervollständigt. Da es immer mal Probleme gab, haben wir viel, gerade in unserem Bereich der Verwendung des Arduinos, auch recht viel recherchiert. Viel haben uns Youtube Videos und Seiten wie Arduino Reference geholfen, um ein besseres Verständnis zu erlangen und so unsere Problem zu lösen. Doch manchmal haben wir uns auch selber, kreativ Lösungen zu Problemen erschlossen, was auch überaschend gut funktioniert hat. Somit konnten wir insgesamt zielgerichtet mit der Kombination aus Recherche und Anwendung bereits erlerntem Wissens auf ein neues Problem, unser Projekt gut fertigstellen. 
 
 
 <h3> 2.2 Die Idee</h3>
 
-Als Gruppe haben wir uns ja wie schon gesagt auf ein Projekt des Physical-Computings geeinigt.
+Wie oben erkärt, haben wir uns für ein Projekt mit Physical-Computings geeinigt.
 Dann haben wir uns einige Projekte angeguckt und haben uns überlegt, dass wir auch etwas messen und steuern möchten.
 Dabei haben wir uns überlegt, dass wir mit Licht arbeiten wollen, weil dies eine gute Herausforderung darstellt, weil es aufgrund der schnell wechselnden Helligkeit,
-schwierig ist, die Helligkeit zu steuern. Dies hätte zu stark schwankenden Werten kommen können. Aber trotz der möglichen Probleme wollten wir das Projekt angehen.
-Dies wollten wir auf einen Schuhkarton übertragen, weil wir nicht das Material haben, um das Projekt in einem Raum auszuführen. 
-In den ersten beiden Einzelstunden und einer Doppelstunde haben wir uns überlegt, dass wir dieses Projekt entwickelt und uns überlegt, dass wir es umsetzen wollen.
-Dann haben wir das Projekt gestartet. Der Ablauf und die Entwicklungen sind dann in unseren Stundenprotokollen sichtbar.
+schwierig ist, die Helligkeit zu steuern. Dies hätte zu stark schwankenden Werten kommen können, aber trotz der möglichen Probleme haben wir uns dazu entschieden das Projekt anzugehen. Dabei schwebte uns ein Raum vor, der mit Lichtsensoren ausgestattet ist und durch ein verschliessbares Fenster, oder eine Art Tür mit Tageslicht befüllt werden kann. Dann haben wir uns überlegt, dass es im Raum eine Lampe geben sollte, die Abhängig von dem Licht im Raum hell beziehungsweise dunkel leuchtet. Dabei soll der Arduino so programmiert sein, dass er die Informationen von den Lichtsensoren im Raum aufnimmt und sie so verarbeitet, dass als Konsequenz eine Lampe stark oder schwach leuchtet. Das Ziel ist immer ein bestimmte Helligkeit im Raum zu haben, dass es automatisiert nie dunkel werden kann. 
+
 
 <h3> 2.3 Softwaretechnische Umsetzung </h3>
  Die Aufgabe der Software ist es, die gemessenen Daten der Photodioden zu kombinieren und dann die Glühlampe in Abhängigkeit dieser Daten zu steuern. Dabei übernimmt offensichtlich der Arduino diese Aufgabe. 
@@ -227,19 +214,11 @@ Youtube Link: https://youtu.be/EAZcYoLfER0
  
 
 Wir ziehen ein sehr positives Fazit, weil wir beide viel Spaß am Projekt hatten. Durch das beidseitige Interesse gab es auch immer eine sehr produktive Zusammenarbeit.
-Mit dem Endprojekt sind beide sehr zufrieden. Wir konnten leider den Zielwert nicht umsetzen, aber mussten einsehen, dass dies bei der Arbeit mit Helligkeit sehr schwierig wäre. 
+Mit dem Endprodukt sind beide sehr zufrieden. 
 Zu Beginn war es eine sehr effektive gemeinsame Planung, welche wir dann mit der Zeit gut umsetzen konnten.
-Aufgrund unserer guten Arbeit waren wir früher fertig und konnten unser Projekt auf Rat von Herrn Buhl noch durch eine Glühlampe verbessern.
-Wir sind sehr froh die Idee jetzt in Wirklichkeit umgesetzt zu haben. Dies freut und fasziniert uns an dem Physical-Computing. 
-Insgesamt haben wir nun gute Kenntnisse im Bereich des Arduinos. Dies gilt für die Software und die Hardware. 
-Das Voranbringen des Projekts lief sehr gut, da wir beide einen großen Willen hatten.
-Wir haben uns auch 2-mal am Wochenende zusammengesetzt und am Projekt weitergearbeitet. 
-Auch wenn es manchmal längere Phasen ohne Erfolg gab überwog die Freude über das Lösen dieses Problems dann umso mehr.
-Aufgrund der guten Zusammenarbeit, der Freude und des Erfolgs (welche auch durch die frühe Fertigstellung gezeigt wurde), 
-haben wir uns entschieden auch im 2. Halbjahr wieder zusammenarbeiten. Ein gutes Klima in der Gruppe ist wichtig, da sonst keine effektive Zusammenarbeit stattfinden kann.
-Da es bei speziell diesem Projekt keine großen Verbesserungen, welche auch für uns möglich sind, mehr gibt haben wir uns entschieden in eine ähnliche Richtung zu gehen.
-Für unser nächstes Projekt arbeiten wir wieder, aufgrund des Interesses und der Vorkenntnisse, mit dem Physical-Computing. Einen genaueren Plan, für das kommende Projekt, gibt es in unserem Ausblick.
-
+Aufgrund unserer guten Arbeit waren wir früher mit der Umsetzung der grundlegenden Idee fertig und konnten unser Projekt auf Rat von Herrn Buhl noch durch eine Glühlampe verbessern und mehr Kenntnisse für das nächste Projekt sammeln.
+Insgesamt haben wir nun grundsätzliche Kenntnisse im Bereich des Arduinos erlernt und hoffen basierend auf diesem Wissen ein deutlich komplexeres nächstes Projekt zu erarbeiten. Wir haben uns auch einige Male am Wochenende zusammengesetzt und am Projekt weitergearbeitet, wodurch wir schnell unsere Ziele erreicht haben und recht viel Zeit hatten, um unsere Erfahrungen zu verschriftlichen. Auch wenn es manchmal längere Phasen ohne Erfolg gab überwog die Freude über das Lösen dieses Problems dann umso mehr, wenn ein Problem gelöst wurde, welche sich über mehrere Stunden hinweg gezogen hatte. Wir haben uns entschieden auch im 2. Halbjahr wieder zusammenarbeiten. 
+	
 <h3> 3.1 Nutzung im Alltag </h3>
 
 Wir haben uns ein Physical-Computing-Projekt ausgesucht, weil uns, wie schon gesagt, der Bezug zur Realität interessiert. 
@@ -256,8 +235,6 @@ Also kann man diese "Erfindung" in vielen und auch wichtigen Bereichen des Allta
 <h3> 3.2 Ausblick </h3>
 
 Für die Zukunft haben wir uns überlegt, dass wir weiter mit dem Arduino arbeiten wollen, weil wir jetzt schon ein gutes Grundwissen dazu haben. 
-Wir wollen aber nicht mehr mit der Helligkeit, sondern mit der wärme arbeiten. 
-Unser Ziel ist es nämlich, dass wir durch eine Glühlampe, welche wärme abgibt, die Temperatur im Raum steuern können. 
-Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. 
-Bei diesem Projekt ist uns besonders wichtig, dass die Wärme auch wirklich gehalten oder hergestellt wird. Dies ist auch noch eine Veränderung, weil man mit der Helligkeit keinen genauen Wert erreichen kann.
+Wir wollen aber nicht mehr mit der Helligkeit, sondern möglichst mit Wärme arbeiten. 
+Wir haben uns schonmal überlegt, dass wir durch eine Glühlampe, welche nicht nur Licht sondern auch Wärme abgibt, die Temperatur im Raum steuern beziehungsweise auf einen bestimmten Wert konstant halten wollen. Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. Auch hier ist die Gefahr von Rückkopplungen groß- und genau das ist also hier die Herausforderung, der wir uns stellen wollen. Dabei können wir nun PID verwenden, worauf wir in unserer ersten Arbeitsphase gestoßen sind. Wir freuen uns schon sehr auf dieses Projekt und die einhergenden Probleme, die wir hoffentlich nochmals lösen können!
 
