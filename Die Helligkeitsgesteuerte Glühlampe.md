@@ -190,6 +190,8 @@ void loop() {
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
 	
+	https://github.com/philipp-arvid/philipp-arvid/blob/main/Infoprojekt_bb.jpg
+	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
 
 - Das Herzstück des Projekts ist die Glühlampe. Diese ersetzte die zu Anfang genutzten LEDs, weil wir durch die Glühlampe mehr Licht bekamen, welches stärker reguliert werden kann und besser den Raum ausleuchtet.
