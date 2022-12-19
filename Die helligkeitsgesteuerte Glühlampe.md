@@ -173,7 +173,7 @@ void loop() {
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
 	
 	
-![image](![neuste version_bb](https://user-images.githubusercontent.com/111414095/208496925-124610f5-ae61-4112-80e6-65ce1994ffc3.jpg))
+![neuste version_bb](https://user-images.githubusercontent.com/111414095/208496925-124610f5-ae61-4112-80e6-65ce1994ffc3.jpg)
 
 
 	
