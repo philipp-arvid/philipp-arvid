@@ -10,35 +10,29 @@
 
 <h3>1.1 Das Team</h3>
 
-Als Team haben sich Arvid Späth und Philipp Rinne zusammengeschlossen. Dies haben wir aufgrund vorheriger erfolgreicher Team-/Gruppenarbeiten gemacht. Außerdem waren wir beide sehr interessiert an Informatik und waren uns einig, dass wir viel Arbeit in das Projekt stecken wollen. Des Weiteren waren wir uns einig, dass wir ein Physical-Computing Projekt durchführen wollen. Also haben alle Vorstellungen zueinander gepasst und wir haben unser Projekt zusammen gestartet
+Als Team haben sich Arvid Späth und Philipp Rinne zusammengeschlossen. Dies haben wir aufgrund vorheriger erfolgreicher Team-/Gruppenarbeiten gemacht. Außerdem waren wir beide sehr interessiert an Informatik und waren uns einig, dass wir viel Arbeit in das Projekt stecken wollen. Des Weiteren waren wir uns einig, dass wir ein Physical-Computing Projekt durchführen wollen. Also haben alle Vorstellungen zueinander gepasst und wir haben unser Projekt zusammen gestartet.
 
  <h3>1.2 Der Arduino</h3>
 
 Das Projekt "Helligkeitsgesteuerte Glühlampe" ist wie schon gesagt ein Physical-Computing Projekt.
 Dies ist, unserer Meinung nach, besonders spannend, weil man Software und Hardware kombiniert. Wir hatten jeder besonderse Interesse in einem Gebiet. 
-Arvid interessiert besonders Software und Philipp die Hardware. 
+Arvid interessierte sich besonders für die Software des Arduinos und Philipp für die Hardware, die wir zusammen mit dem Modell Arduino UNO kombiniert haben. 
 Dies passte gut zusammen, da wir beide uns besonders in unserem Bereich informierten und dann dem anderen jeweils die Ausführungen und den Aufbau erklären konnten.
-Dies klappte sehr gut, weil wir den anderen Bereich, welcher dann vom Partner erklärt wurde, deutlich schneller verstanden. 
-Besonders gereizt hat uns am Arduino, dass man die Theorie sozusagen mit der Praxis verbinden kann.
-Also kann man seine Idee auch in der Realität umsetzen und diese kann eventuell auch in der Zukunft genutzt werden. 
-Darüber haben wir uns im Fazit noch genauer Gedanken gemacht.
+Dies klappte sehr gut, weil wir den anderen Bereich, welcher dann vom Partner erklärt wurde, deutlich schneller verstanden haben und so auch effektiv arbeiten konnten. Aber natürlich haben wir den Großteil der Arbeit zusammen am Computer gemacht und konnten uns so recht schnell ein gutes Grundverständnis über die Funktionalitäten des Arduinos erarbeiten. Mit der Zeit sind uns auch erst die vielen Möglichkeiten mit dem Arduino seine Ideen in die Realität umsetzen, welche sich möglicherweise als tatsächlich nützlich erweisen. 
+
 
 <h3>1.3 Genutzte Programme</h3>
 
-Arduino App
+Arduino-IDE
 
-Die Arduino-App ist natürlich die Grundlage unseres Projekts. Über diese haben wir unser Projekt gesteuert. Wir haben mit einem Arduino UNO gearbeitet.
-Über die Aruino-App haben wir den Arduino gesteuert, welcher dann durch die Anweisungen die Helligkeit der Glühbirne steuert.
-Für dies Programm haben uns am Anfang Videos geholfen. Am Ende war es aber besonders die Website der App, welche uns geholfen hat. 
-Bei dieser gab es die allgemeinen Erklärungen, welche wir dann auf unser Projekt gut übertragen konnten
+Das Arduino Programm ist natürlich die Grundlage unseres Projekts und der Software-Teil des Arduino UNOs. Mit dem Programm lassen sich Sketches schreiben, die die Funktionsweise des Arduinos programmieren und unser Projekt ermöglichen. 
 
 Github
 
-Github wurde als programm für die Stundenprotokolle und Projektseite genutzt. 
-Dies war sehr passend, weil Github ein Dienst zurVersionsverwaltung zur Software-Entwicklu8ng ist. 
-Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
+Github wurde als Programm für die Stundenprotokolle und Projektseite genutzt. Github ist ein Dienst zur Versionsverwaltung zur Software-Entwicklung, weshalb sich hier gut Projekte mit Bildern und Codes dokumentieren lassen. 
 
 Fritzing
+Fritzing ist eine Software mit der man die Hardware, also unsere Steckverbindungen, digital und übersichtlich darstellen kann.
 
 <h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
