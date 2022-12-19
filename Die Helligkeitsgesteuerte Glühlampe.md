@@ -189,8 +189,8 @@ void loop() {
 	
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
+	![](Infoprojekt_bb.jpg)
 	
-	https://github.com/philipp-arvid/philipp-arvid/blob/main/Infoprojekt_bb.jpg
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
 
