@@ -190,10 +190,11 @@ void loop() {
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
 	
-	
+	![image](https://user-images.githubusercontent.com/111414095/208444045-68d88710-fcaa-424e-970f-63a977cb39b0.png)
+
 
 	
-	![fritzing neu](https://user-images.githubusercontent.com/111414095/208443648-b0c1e10b-0e54-475d-bc87-f07c78205fc0.png)
+	
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
 
