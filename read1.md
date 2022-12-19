@@ -197,21 +197,35 @@ void loop() {
 
 
 	
+
 	
+<details>
+	<summary>Bild</summary>	
+	
+   ![](IMG_2247.jpeg)
+	
+</details>	
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
- 
-- Wir benötigen eine Glühlampe. Diese ersetzt die anfänglich genutzten LEDs, weil wir durch die Glühlampe mehr Licht bekommen und dieses stärker reguliert werden kann und den Raum besser ausleuchtet.
-
-- Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dafür haben wir ein externes Netzteil genutzt Dieses haben wir dann an die Steckdose angeschlossen und konnten es in den Stromkreis einbinden. Dadurch hat die Glühlampe genügend Strom bekommen um zu leuchten.
-
-- Dazu haben wir dann die Photodioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Die Photodiode nehmen die Helligkeit auf und leiten elektrischen Strom an den Arduino weiter. Dieser Strom hängt von der Helligkeit ab. Denn die Photoiode dient wie ein Wiederstand. Wenn es Hell ist, ist ein geringer Wiederstand vorhanden. Wenn es dunkel ist, ist ein starker Wiederstand vorhanden. Dies ist so, weil bei Helligkeit die Elektronen in der Photoiode wirken und der Strom besser geleitet wird. Durch diesen Strom kann die Software des Arduinos ablesen Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
-
-- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Der Arduino verknüpft die Software und die Hardware. Wir nutzen den Arduino UNO. Dieser sammelt die Informationen von den angeschlossenen Messgeräte und leitet diese an den PC weiter. Dieser nimmt die auf und schreibt sie aufgrund des Codes in Zahlen um, welche den Strom steuern. Diese gibt der PC dann wieder an den Arduino, welcher den Strom dann an die bestimmten Stellen weiterleitet.
-
-- Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten, und diesen nicht zur verfügung hatten. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.
+	
+<li>Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten und dieser auch sher gut alle Gegebenheiten eines normalen raumes simulieren kann. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.   </li>	
 	
 	
+<li>Die Glühlampe, die unsere Lichtquelle darstellt ist eine reguläre Glühlampe mit 6V, die auch aus dem Inventar der Schule stammt. Am Anfang des Projekts haben wir noch mit LEDs gearbeitet, doch diese wurden im Laufe der Zeit mit dieser Glühlampe ersetzt.    </li>
+
+<li>Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dafür haben wir ein externes Netzteil genutzt Dieses haben wir dann an die Steckdose angeschlossen und konnten es in den Stromkreis einbinden. Dadurch hat die Glühlampe genügend Strom bekommen, um zu leuchten.   </li>
+
+<li>Ein weiterer Teil, das Herzstück, ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Dieser stellt nämlich die Verbindung zwischen Software und Hardware da. Bei der Hardware des Arduinos handelt es sich um das sogenannte Arduino-Board und die Software übernimmt das Programm Arduino IDE, welche den Sketch, also das Steuerprogramm, erstellt. Der Mikrocontroller steuert seine Ausgänge je nach Programmierung in Beziehung zu seinen Eingängen. Somit ist es für uns Möglich unsere automatisierte Glühbrine zu betreiben. Alle Messwerte, welche durch die Photodioden eingehen, gibt der Arduino durch den Seriellen Monitor an. Außerdem liest er sie ab und aufgrund unseren Codes führt er dann die programmierten Anweisungen aus. Diese gibt der PC wieder an das Arduino-Board, welches die Stromstärken dann an die bestimmten Stellen weiterleitet.   </li>
+
+<li>Des Weiteren haben wir Photodioden genutzt, weil wir die Lichtintensität im vorliegendem Karton messen müssen, um die Glühlampe zu regulieren. Die Photodiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Die Photodiode dient wie ein Wiederstand. Denn wenn es Hell ist, führt der innere Photoeffekt zu einer Spannung.  Dann wird der Strom an den Arduino weitergeleitet, wo er mit der Software in einen Wert umgerechnet wird (im Video zu sehen). Wenn es Hell ist, wird also ein höherer Wert angezeigt, weil mehr Strom fließt und ein gegenteiliger Effekt entsteht bei wenig Licht. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.   </li>
+
+	
+<li>Außerdem haben wir einen Transistor verwendet. Dieser war auch im Inventar der Stormarnschule vorzufinden und dieser nimmt eine ganz wichtige Funktion in unserem Aufbau ein. Denn der Transistor ist dafür zustandig, dass wir die Helligkeit der Glühlampe steuern können. Durch den Transistor, der wie ein Verstärker vom Strom wirkt, können wir die 6V Glühlampe mit dem Ardiono, der nur höchstens 5V ausgeben kann, steuern. Zu beginn haben wir dies, wie man sehen kann, mit einem externen Netzteil gemacht, um genügend Spannung in den Stromkreis zu bringen und erst die Möglichkeit zu haben die Glühlampe zu betreiben. ALs Nächstes kommt der Transistor ins Spiel. Dieser sorgt dafür, dass der Strom für die Glühlampe verstärkt wird, wenn es dunkler wird. Denn ein Transistor ist aus einem Emitter, einem Kollektor und der Basis aufgebaut. Durch Kollektor und Emitter fließt Strom abhängig davo, wie viel Strom durch die Basis fließt. Dabei wirkt die Basis als Schalter und Verstärker. Die Basis wird bei unserem Aufbau vom 10. Pin vom Arduino gesteuert und je nachdem, wie viel Strom dort, abhängig von der Lichtintensität durchgegeben wird, kann Strom durch den Kollektor und den Emitter fließen. Dadurch bekommt unsere Glühbrine dann abhängig von der Basis Strom zugeführt und leuchtet oder leuchtet nicht.    </li>
+	
+ 	
+	
+	
+
  
 <h3> 2.5 Das Endprodukt </h3>
 Youtube Link: https://youtu.be/EAZcYoLfER0
