@@ -25,20 +25,20 @@ Darüber haben wir uns im Fazit noch genauer Gedanken gemacht.
 
 <h3>1.3 Genutzte Programme</h3>
 
-Arduino IDE
+Arduino App
 
-Das Arduino Programm ist natürlich die Grundlage unseres Projekts mit der wir den Arduino UNO gesteuert haben.
-Im Programm haben wir unseren Code entwickelt, den wir anschließend auf den Arduino hochgeladen haben.
+Die Arduino-App ist natürlich die Grundlage unseres Projekts. Über diese haben wir unser Projekt gesteuert. Wir haben mit einem Arduino UNO gearbeitet.
+Über die Aruino-App haben wir den Arduino gesteuert, welcher dann durch die Anweisungen die Helligkeit der Glühbirne steuert.
+Für dies Programm haben uns am Anfang Videos geholfen. Am Ende war es aber besonders die Website der App, welche uns geholfen hat. 
+Bei dieser gab es die allgemeinen Erklärungen, welche wir dann auf unser Projekt gut übertragen konnten
 
 Github
 
 Github wurde als programm für die Stundenprotokolle und Projektseite genutzt. 
-Dies war sehr passend, weil Github ein Dienst zur Versionsverwaltung zur Software-Entwicklung ist. 
-Also konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
+Dies war sehr passend, weil Github ein Dienst zurVersionsverwaltung zur Software-Entwicklu8ng ist. 
+Also Konnte man hier sehr gut das Projekt dokumentieren, da man gut Bilder und auch den Code vom Arduino einfügen kann.
 
 Fritzing
-
-Fritzing ist ein Programm mit dem man die Steckverbindungen unserer Hardware digital und übersichtlich darstellen kann. 
 
 <h1>Entwicklung des Projekts</h1> <a name="Entwicklung"></a>
 
@@ -204,9 +204,9 @@ Alle genutzten Teile konnten uns von der Schule gestellt werden.
 
 - Das, was die Glühlampe seuert
 
-- Dazu haben wir dann die Photoioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
+- Dazu haben wir dann die Photodioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Die Photodiode dient wie wie Wiederstand. Denn wenn es Hell ist, leiten die Elektronen in der Photodiode gut. Wenn es dunkel ist, sind weniger Elektronen vorhanden, die leiten. Dieser Wiederstand ist in den Stromkreis eingebaut. Dann wird der Strom an den Arduino weitergeleitet, wo er mit der Software in einen Wert umgerechnet wird (im Video zu sehen). Wenn es Hell ist, ist die Photoiode nur ein geringer Wiederstand. Also kommt viel Strom im Stromkreis zum Arduino und die Software zeigt hohe Werte für die Helligkeit an. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
 
-- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Dieser gibt die Messungen an den PC weiter, welche man auch im Video sehen kann.Daraufhin gibt der PC anweisungen an den Arduino, welcher diese dann weiterleitet oder auführt.
+- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Dieser stellt nämlich die Verbindung zwischen Software und Hardware da. Alle Messwerte, welche eingehen gibt der Arduino und bei uns an den PC. Dort werden diese abgelesen und aufgrund des Codes in Anweisungen übertragen. Diese gibt der PC wieder an das Arduino-Board, welches die Stromstärken dann an die bestimmten Stellen weiterleitet.
 
 - Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten, und diesen nicht zur verfügung hatten. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.
 	
