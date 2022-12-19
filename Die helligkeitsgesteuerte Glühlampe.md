@@ -188,7 +188,7 @@ void loop() {
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
 	
-<li>Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten und dieser auch sher gut alle Gegebenheiten eines normalen raumes simulieren kann. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.   </li>	
+<li>Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten und dieser auch sehr gut alle Gegebenheiten eines normalen Raumes simulieren kann. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch ein Loch die Kabel des Arduinos mit dem PC verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.   </li>	
 	
 	
 <li>Die Glühlampe, die unsere Lichtquelle darstellt ist eine reguläre Glühlampe mit 6V, die auch aus dem Inventar der Schule stammt. Am Anfang des Projekts haben wir noch mit LEDs gearbeitet, doch diese wurden im Laufe der Zeit mit dieser Glühlampe ersetzt.    </li>
