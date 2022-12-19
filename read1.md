@@ -254,4 +254,3 @@ Unser Ziel ist es nämlich, dass wir durch eine Glühlampe, welche wärme abgibt
 Also messen wir diesmal die Temperatur, statt die Helligkeit, um auch noch etwas neues zu dem bereits bekannten zu lernen. 
 Bei diesem Projekt ist uns besonders wichtig, dass die Wärme auch wirklich gehalten oder hergestellt wird. Dies ist auch noch eine Veränderung, weil man mit der Helligkeit keinen genauen Wert erreichen kann.
 
-![image](https://user-images.githubusercontent.com/111414095/208444045-68d88710-fcaa-424e-970f-63a977cb39b0.png)
