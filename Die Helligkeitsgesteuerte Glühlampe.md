@@ -190,7 +190,10 @@ void loop() {
 	
 <h3> 2.4 Hadwaretechnische Umsetzung </h3>
 	
-	![Infoprojekt_bb](https://user-images.githubusercontent.com/111414095/208439606-3a122f9c-5a74-41f5-bfb0-b2ecef14036b.jpg)
+	![Infoprojekt_bb](https://user-images.githubusercontent.com/111414095/208440991-9f3583ec-3865-4de8-bfa4-91d24bb21650.jpg)
+	
+	
+	
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
 
