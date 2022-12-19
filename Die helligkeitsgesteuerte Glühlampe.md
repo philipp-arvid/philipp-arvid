@@ -1,10 +1,10 @@
 # Die helligkeitsgesteuerte Glühlampe
 ## Links
 
-1. [Stundenprotokolle](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
-2. [Einleitung](#Einleitung)
-3. [Entwicklung des Projekts](#Entwicklung)
-4. [Fazit](#Fazit)
+ [Stundenprotokolle](https://github.com/philipp-arvid/philipp-arvid/blob/main/README.md)
+1. [Einleitung](#Einleitung)
+2. [Entwicklung des Projekts](#Entwicklung)
+3. [Fazit](#Fazit)
 
 <h1>1. Einleitung</h1> <a name="Einleitung"></a>
 
