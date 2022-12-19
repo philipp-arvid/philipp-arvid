@@ -198,16 +198,14 @@ void loop() {
 	
 	
 Alle genutzten Teile konnten uns von der Schule gestellt werden.
-
-- Das Herzstück des Projekts ist die Glühlampe. Diese ersetzte die zu Anfang genutzten LEDs, weil wir durch die Glühlampe mehr Licht bekamen, welches stärker reguliert werden kann und besser den Raum ausleuchtet.
+ 
+- Außerdem benötigen wir eine Glühlampe. Diese ersetzte die zu Anfang genutzten LEDs, weil wir durch die Glühlampe mehr Licht bekommen und dies stärker reguliert werden kann und den Raum besser ausleuchtet.
 
 - Damit diese 6V Glühlampe gesteuert werden kann, brauchten wir eine externe Energiequelle. Dafür haben wir ein externes Netzteil genutzt Dieses haben wir dann an die Steckdose angeschlossen und konnten es in den Stromkreis einbinden. Dadurch hat die Glühlampe genügend Strom bekommen um zu leuchten.
 
-- Das, was die Glühlampe seuert
+- Dazu haben wir dann die Photodioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Die Photodiode nehmen die Helligkeit auf und leiten elektrischen Strom an den Arduino weiter. Dieser Strom hängt von der Helligkeit ab. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
 
-- Dazu haben wir dann die Photoioden genutzt, weil wir die herrschende Helligkeit messen mussten, um die Glühlampe zu regulieren. Die Photoiode ist die klassische Messung, welche man in Verbindung mit einem Arduino nutzt. Wir haben zwei Photoioden genutzt, welche an verschiedenen Stellen des Steckbretts angebracht sind, damit die durchschnittliche Helligkeit im Raum ermittelt werden kann.
-
-- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Dieser gibt die Messungen an den PC weiter, welche man auch im Video sehen kann.Daraufhin gibt der PC anweisungen an den Arduino, welcher diese dann weiterleitet oder auführt.
+- Ein weiterer Teil ist der Arduino. Dieser ist die Grundlage, weil jede Messung und Steuerung vom Arduino ausgeht. Der Arduino verknüpft die Software und die Hardware. Wir nutzen den Arduino UNO. Dieser sammelt die Informationen von den angeschlossenen Messgeräte und leitet diese an den PC weiter. Dieser nimmt die auf und schreibt sie aufgrund des Codes in Zahlen um, welche den Strom steuern. Diese gibt der PC dann wieder an den Arduino, welcher den Strom dann an die bestimmten Stellen weiterleitet.
 
 - Als "Raum" haben wir einen Schuhkarton gewählt, weil wir mit den vorhandenen Materialien nicht einen Raum ausstatten konnten, und diesen nicht zur verfügung hatten. Ein Schuhkarton war das perfekte Produkt, weil man ihn gut abdunkeln und wieder erhellen kann. Außerdem kann man durch das Loch die Kabel verbinden und hatte somit nicht immer einen Lichtschlitz im Deckel.
 	
