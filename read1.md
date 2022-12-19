@@ -39,9 +39,7 @@ Fritzing ist eine Software mit der man die Hardware, also unsere Steckverbindung
 
 <h3>2.1 Vorgehen </h3>
 
-Am Anfang hat Herr Buhl uns  gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. 
-Also haben wir mit einem ganz einfachen, vorinstallierten Code ten gebracht.
-Danach haben wir sie zum Blinken genbracht und daraufhin haben wir mehrere  LEDs eingebaut. 
+Am Anfang hat Herr Buhl uns  gesagt, dass wir die Grundlagen des Arduinos kennenlernen sollen. Also haben wir mit einem ganz einfachen, vorinstallierten Code eine LED zum Leuchten gebracht. Danach haben wir sie zum Blinken genbracht und daraufhin haben wir mehrere LEDs eingebaut. 
 Also haben wir erst die einfachsten Grundlagen gelernt und sie dann in das Projekt eingebaut. Am Anfang haben wir es dann natürlich weiterentwickelt.
 Dieses Vorgehen haben wir als sehr gut erachtet und somit bei den weiteren Versuchen auch umgesetzt. Dies gilt für die Photodiode und auch die Glühlampe. 
 Also haben wir  die Photodiode erst Werte aufnehmen lassen und gesehen. Ab dann wussten wir, wie sie funktioniert und haben sie mit der LED kombiniert. 
