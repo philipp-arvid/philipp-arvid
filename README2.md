@@ -10,3 +10,8 @@ Heute haben wir uns überlegt, welche Teile wir für unser projekt benötigen un
 17.01.2023
 
 Heute haben wir die ersten Materialien zusammen getragen. Nun haben wir eine 25 Watt Glühbirne und müssen uns jetzt überlegen, wie oder welchen Transistor wir brauchen um Strom aus der Steckdose steuern zu können. Als nächstes müssen wir uns auch übelergen, wie wir unseren Wärmesensor kalibrieren. Doch dies ist nicht ganz einfach, da ein Wär,esensor nicht linear funktioniert. 
+
+
+18.01.2023
+
+Heute
