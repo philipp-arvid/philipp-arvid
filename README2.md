@@ -16,3 +16,7 @@ Heute haben wir die ersten Materialien zusammen getragen. Nun haben wir eine 25 
 
 Heute haben wir einen ersten Schritt geschafft. Wir haben es geschafft, auch nach Problemen den Wiedertstand des NTCs auszulesen. Als nächstes müssen wir den NTC Wiederstan in eine Temperatur umrechnen.  https://forum.arduino.cc/t/ol-temperatur-messen-welcher-oltemperaturgeber-kfz/152055/12#msg1170722
 https://www.mymakerstuff.de/2018/05/18/arduino-tutorial-der-temperatursensor/
+
+24.01.2023
+
+Heute habe ich hunger
