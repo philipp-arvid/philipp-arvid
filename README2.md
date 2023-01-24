@@ -18,5 +18,42 @@ Heute haben wir einen ersten Schritt geschafft. Wir haben es geschafft, auch nac
 https://www.mymakerstuff.de/2018/05/18/arduino-tutorial-der-temperatursensor/
 
 24.01.2023
+heute haben wir weiter recherchiert, wie man einen Ntc Wiedersandswert in Temperarur umrechnet. Da haben wir eine wuelle schon gefunden, doch leider hat das noch nicht geklappt- hier ist der code damit wir nicht immer ein halbe stunde wieder auf dem Stand von der stunde davor kommen müssen LOOOOLLLL.
+int sensorPin = A0;
+int bitwertNTC = 0;
+long widerstand1=1000;                   //Ohm
+int bWert =3950;                           // B- Wert vom NTC
+double widerstandNTC =0;
+double kelvintemp = 273.15;                // 0°Celsius in Kelvin
+double Tn=kelvintemp + 25;                 //Nenntemperatur in Kelvin
+double TKelvin = 0;                        //Die errechnete Isttemperatur
+double T = 0;                              //Die errechnete Isttemperatur
 
-Heute habe ich hunger
+void setup() {
+
+  Serial.begin(9600);
+}
+
+void loop() {
+     
+  Serial.println("Sensormessung:  ");
+  bitwertNTC = analogRead(sensorPin);      // lese Analogwert an A0 aus
+  widerstandNTC = widerstand1*(((double)bitwertNTC/1024)/(1-((double)bitwertNTC/1024)));
+
+                                           // berechne den Widerstandswert vom NTC
+  TKelvin = 1/((1/Tn)+((double)1/bWert)*log((double)widerstandNTC/widerstand1));
+                                           // ermittle die Temperatur in Kelvin
+  T=TKelvin-kelvintemp;                    // ermittle die Temperatur in °C
+
+  Serial.println("Analog: ");              //
+  Serial.println(bitwertNTC);              //
+  Serial.println("NTC- Widerstand: ");     //Gebe die ermittelten Werte aus
+
+  Serial.println(widerstandNTC);           //
+  Serial.println("Temperatur: ");          //Gebe die ermittelten Werte aus
+  Serial.println(T);                       //
+ 
+delay(1000);                               // Warte eine Sekunde und mache alles nochmal
+  
+}
+
