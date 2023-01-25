@@ -57,3 +57,6 @@ delay(1000);                               // Warte eine Sekunde und mache alles
   
 }
 
+25.01.2023
+
+heute wasserkocher, weiter probiert, mehrere websites, herr buhl hat nicht geklappt, B wert ist abhänging von der dfunktion , neuer Thermistor mit board für nächste woche, auch selbser probiert mit float
