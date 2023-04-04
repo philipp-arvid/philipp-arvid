@@ -9,6 +9,7 @@ Aufgrund der erfolgreichen zusammenarbeit und dem Spaß am Projekt haben wir uns
 
 Der Arduino
 
+Wir haben uns entschieden wieder ein Arduino-Projekt auszuführen. Dies liegt daran, dass uns beim letzten Mal die Kombination aus der Software und Hardware sehr gut gefallen hat. Diesmal haben wir uns aber entschieden ein schwierigeres Projekt anzugehen. Dies baut auf unserem vorherigen Projekt auf und ist somit eine neue Herausforderung. Aufgrund der Vorkenntnisse aus dem ersten Halbjahr beschäftigen wir uns nun mit PID, um die Temperaturunterschiede noch besser steuern zu können. 
 
 
 Was wollen wir machen? 
