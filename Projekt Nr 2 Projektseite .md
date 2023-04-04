@@ -1,6 +1,16 @@
 Projekt Nr 2 
 
 
+Einleitung
+
+Das Team
+
+Aufgrund der erfolgreichen zusammenarbeit und dem Spaß am Projekt haben wir uns entschlossen auch beim Projekt im zweiten Halbjahr zusammenzuarbeiten. Außerdem haben wir uns im 1. Halbjahr schon ein Projekt überlegt, welches auf das vorherige aufbaut. Somit ist es das einzig sinnvolle in einem Ream zu bleiben.
+
+Der Arduino
+
+
+
 Was wollen wir machen? 
 
 
@@ -18,8 +28,3 @@ Aluminiumfolie
  Netzteil(e)
  Transistor
  ventilator
- Wärmesensoren
- Steckbrett
- 
- 
- 
